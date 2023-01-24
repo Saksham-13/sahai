@@ -8,6 +8,8 @@ module.exports = {
     extend: {},
     colors:{
       'navbar': '#c29c81',
+      'navtext':'#dfc8ae',
+      'black':'#000',
     },
   },
   plugins: [require('@tailwindcss/typography')],

@@ -17,8 +17,8 @@ function MobileNav({open, setOpen}) {
             <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20"> {/*logo container*/}
             <Link href='/'>
           <Image
-                width={90}
-                height={90}
+                width={100}
+                height={100}
                 alt={"sahai logo"}
                 src={`/images/sahailogo.png`}
               />
@@ -69,9 +69,9 @@ export default function Navbar() {
           </Link>
                 {/* <Link className="text-2xl mx-auto font-semibold" href="/">Sahai</Link> */}
             </div>
-            <div className="w-9/12 flex justify-end items-center">
+            <div className="w-9/12 flex justify-end  items-center">
 
-                <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden" onClick={() => {
+                <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden " onClick={() => {
                     setOpen(!open)
                 }}>
                     {/* hamburger button */}
