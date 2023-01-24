@@ -17,8 +17,8 @@ function MobileNav({open, setOpen}) {
             <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20"> {/*logo container*/}
             <Link href='/'>
           <Image
-                width={50}
-                height={50}
+                width={90}
+                height={90}
                 alt={"sahai logo"}
                 src={`/images/sahailogo.png`}
               />
@@ -61,8 +61,8 @@ export default function Navbar() {
             <div className="w-3/12 flex items-center">
             <Link href='/'>
           <Image
-                width={50}
-                height={50}
+                width={90}
+                height={90}
                 alt={"sahai logo"}
                 src={`/images/sahailogo.png`}
               />
