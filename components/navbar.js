@@ -3,7 +3,10 @@ import { useState } from 'react'
 import Image from 'next/image';
 
 function NavLink({to, children}) {
-    return <a href={to} className={`mx-4`}>
+    return <a href={to} className={`mx-4 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+              before:bottom-0 before:left-0 before:bg-black
+              before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+              before:transition before:ease-in-out before:duration-300`}>
         {children}
     </a>
 }
@@ -32,7 +35,7 @@ function MobileNav({open, setOpen}) {
                 <Link className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Podcasts
                 </Link>
-                <Link className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <Link className="text-xl font-normal my-4 " href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Events
                 </Link>
                 <Link className="text-xl font-normal my-4" href="/ourStory" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
