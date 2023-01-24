@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blogpic{
+    width: 650px;
+    height: 300px;
+}
