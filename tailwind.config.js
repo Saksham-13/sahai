@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors:{
+      'navbar': '#c29c81',
+    },
   },
   plugins: [require('@tailwindcss/typography')],
 }

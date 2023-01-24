@@ -21,7 +21,7 @@ export default function Layout({ children }) {
       
       <main className='container mx-auto flex-1'>{children}</main>
       <footer className='bg-orange-100 mt-8 py-4'>
-        <div className='container mx-auto flex justify-center'>
+        <div className='container mx-auto flex  justify-center'>
           &copy; Sahai
         </div>
       </footer>
