@@ -23,27 +23,27 @@ function MobileNav({open, setOpen}) {
                 {/* <Link className="text-xl font-semibold justify-center" href="/">Sahai</Link> */}
             </div>
             <div className="flex flex-col ml-4">
-            <a className="text-xl font-normal my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+            <Link className="text-xl font-normal my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Resources
-                </a>
-                <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Blog
-                </a>
-                <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Podcasts
-                </a>
-                <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Events
-                </a>
-                <a className="text-xl font-normal my-4" href="/ourStory" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl font-normal my-4" href="/ourStory" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Our Story
-                </a>
-                <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Meet the team
-                </a>
-                <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                </Link>
+                <Link className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                    Get invlolved
-                </a>
+                </Link>
             </div>  
         </div>
     )
