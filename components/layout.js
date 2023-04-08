@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Navbar from '../components/navbar'
 export default function Layout({ children }) {
   return (
-    <div className='flex flex-col min-h-screen'>
+    <div className='flex flex-col '>
       <Navbar/>
       {/* <header className='bg-orange-100 mb-8 py-4'>
         <div className='container mx-auto flex justify-center'>

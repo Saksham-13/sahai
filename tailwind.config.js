@@ -4,13 +4,16 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
     extend: {},
-    colors:{
-      'navbar': '#c29c81',
-      'navtext':'#dfc8ae',
-      'black':'#000',
-    },
+   
   },
   plugins: [require('@tailwindcss/typography')],
+  variants: {
+    display: ['responsive', 'group-hover', 'group-focus'],
+   },
+   images: {
+    domains: ['o.remove.bg"'],
+  },
 }

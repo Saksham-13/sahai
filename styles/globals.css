@@ -6,3 +6,39 @@
     width: 650px;
     height: 300px;
 }
+.flex-1{
+    margin: 0 !important; 
+    width: 100vw;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+
+} 
+
+@media (min-width: 1024px){
+.container{
+    max-width: 12000px !important;
+}}
+@font-face {
+    font-family: "LoveloLineBold";
+    src: url(/fonts/LoveloLineBold.otf) format("truetype");
+    }
+@font-face {
+        font-family: "LoveloLineLight";
+        src: url(/fonts/LoveloLineLight.otf) format("truetype");
+        }
+@font-face {
+            font-family: "LoveloBlack";
+            src: url(/fonts/LoveloBlack.otf) format("truetype");
+            }
+            .font-lovelo-line-bold{
+                font-family: "LoveloLineBold";
+            }
+            .font-lovelo-line-light{
+                font-family: "LoveloLineLight";
+            }
+            .font-lovelo-black{
+                font-family: "LoveloBlack";
+            }

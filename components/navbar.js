@@ -29,7 +29,7 @@ function MobileNav({open, setOpen}) {
             <Link className="text-xl font-normal my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Resources
                 </Link>
-                <Link className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <Link className="text-xl font-normal my-4" href="/blog" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Blog
                 </Link>
                 <Link className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
@@ -51,12 +51,12 @@ function MobileNav({open, setOpen}) {
         </div>
     )
 }
-
+// bg-[#c29c81]
 export default function Navbar() {
 
     const [open, setOpen] = useState(false)
     return (
-        <nav className="flex filter drop-shadow-md bg-navbar  px-4 py-4 h-20 items-center ">
+        <nav className="flex filter drop-shadow-md bg-[#435559]   px-4 py-4 h-20 items-center z-10 ">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-3/12 flex items-center">
             <Link href='/'>
@@ -84,7 +84,7 @@ export default function Navbar() {
                     <NavLink to="/contact">
                         Resources
                     </NavLink>
-                    <NavLink to="/contact">
+                    <NavLink to="/blog">
                         Blog
                     </NavLink>
                     <NavLink to="/contact">
@@ -94,11 +94,15 @@ export default function Navbar() {
                         Event
                     </NavLink>
                     <NavLink to="/about">
-                        About Us
+                        Our Story
                     </NavLink>
                     <NavLink to="/contact">
                         Get Involved
                     </NavLink>
+                    <NavLink to="/contact">
+                        Meet The Team
+                    </NavLink>
+                    
                 </div>
             </div>
         </nav>
