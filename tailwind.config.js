@@ -13,7 +13,5 @@ module.exports = {
   variants: {
     display: ['responsive', 'group-hover', 'group-focus'],
    },
-   images: {
-    domains: ['o.remove.bg"'],
-  },
+   
 }

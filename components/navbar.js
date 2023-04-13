@@ -93,7 +93,7 @@ export default function Navbar() {
                     <NavLink to="/contact">
                         Event
                     </NavLink>
-                    <NavLink to="/about">
+                    <NavLink to="/ourStory">
                         Our Story
                     </NavLink>
                     <NavLink to="/contact">

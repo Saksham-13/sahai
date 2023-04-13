@@ -42,3 +42,22 @@ body {
             .font-lovelo-black{
                 font-family: "LoveloBlack";
             }
+.parallax {
+    /* The image used */
+    background-image: url("https://media.discordapp.net/attachments/972456002844766228/1094536751181205604/DSC_0107.JPG?width=1564&height=1036");
+
+
+    /* Set a specific height */
+    min-height: 300px;
+    backdrop-filter: blur( 4px );
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.glass{
+    backdrop-filter: blur(2px );
+    height: 300px;
+}

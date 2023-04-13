@@ -29,16 +29,16 @@ export default function Pdocast() {
         </div>
         <div className='grid grid-cols-1   lg:grid-cols-4  gap-8 justify-center'>
             <div className='lg:p-1 p-6'>
-            <iframe className="rounded" src="https://open.spotify.com/embed/episode/6IVfVzHfxE6OhwmPqWa8bC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe className="rounded" src="https://open.spotify.com/embed/episode/6IVfVzHfxE6OhwmPqWa8bC?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
             <div className='lg:p-1 p-6'>
-            <iframe className="rounded" src="https://open.spotify.com/embed/episode/6t8YudT2otKmVLi4HMNrAV?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe className="rounded" src="https://open.spotify.com/embed/episode/6t8YudT2otKmVLi4HMNrAV?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
             <div className='lg:p-1 p-6'>
-            <iframe className="rounded" src="https://open.spotify.com/embed/episode/71jpzzlUZJURqI8n4okiCg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe className="rounded" src="https://open.spotify.com/embed/episode/71jpzzlUZJURqI8n4okiCg?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
             <div className='lg:p-1 p-6'>
-            <iframe className="rounded" src="https://open.spotify.com/embed/episode/6t8YudT2otKmVLi4HMNrAV?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe className="rounded" src="https://open.spotify.com/embed/episode/6t8YudT2otKmVLi4HMNrAV?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
         </div>
 
