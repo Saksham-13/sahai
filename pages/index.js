@@ -7,6 +7,7 @@ import Hero from '../components/hero';
 import Pdocast from '../components/podcast';
 import { Parallax } from 'react-scroll-parallax';
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import Contact from '../components/contact';
 // import styles from '../styles/Home.module.css'
 // <Hero/>
 export async function getStaticProps() {
@@ -99,6 +100,7 @@ export default function Home({ posts }) {
     </div>
 
       </div>
+      <Contact/>
      
 
 

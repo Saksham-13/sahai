@@ -87,7 +87,7 @@ export default function Navbar() {
                     <NavLink to="/blog">
                         Blog
                     </NavLink>
-                    <NavLink to="/contact">
+                    <NavLink to="https://open.spotify.com/show/2Y17fgONRJ1jkhb7ZpAisD?si=32131090379f495b">
                         Podcasts
                     </NavLink>
                     <NavLink to="/contact">
