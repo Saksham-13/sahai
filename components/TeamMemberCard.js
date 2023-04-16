@@ -13,7 +13,7 @@ const TeamMemberCard = ({ name, designation, description, imageUrl }) => {
 
     return (
         <div
-            className="relative rounded-lg  overflow-hidden group"
+            className="relative rounded-lg   overflow-hidden group"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
