@@ -96,7 +96,7 @@ export default function Navbar() {
                     <NavLink to="/ourStory">
                         Our Story
                     </NavLink>
-                    <NavLink to="/contact">
+                    <NavLink to="/getInvolved">
                         Get Involved
                     </NavLink>
                     <NavLink to="/meetTheTeam">
