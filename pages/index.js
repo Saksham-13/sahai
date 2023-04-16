@@ -73,12 +73,12 @@ export default function Home({ posts }) {
             </RoughNotation>
           </h1>
           <p
-          className='text-lg text-gray-500 font-mono w-4/5 '
+          className='text-lg text-gray-500 mb-4 font-mono lg:w-1/2 w-4/5 text-center'
           >
           Read our latest blogs by our content team that talk about mental health, share their own stories and everything in between!
           </p>
         </div>
-         <div className='grid grid-cols-1  mx-5 mt-4 md:grid-cols-3 lg:grid-cols-3 gap-5 p-4 md:p-0'>
+         <div className='grid grid-cols-1  mx-5 mt-8 md:grid-cols-3 lg:grid-cols-3 gap-5 p-4 md:p-0'>
       {posts.slice(0, 3).map(({ slug, frontmatter }) => (
         <div
           key={slug}
