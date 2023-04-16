@@ -1,5 +1,7 @@
 import TeamMemberCard from '../components/TeamMemberCard';
-
+import roboto from '../components/fonts/robotoFont';
+import tiltPrism from '../components/fonts/tiltPrism';
+import fredricka from '../components/fonts/fredricka';
 const teamMembers = [
     {
         name: 'John Doe',
@@ -42,7 +44,8 @@ const teamMembers = [
 const MeetTheTeamPage = () => {
     return (
         <>
-            <h1 className="text-7xl font-bold my-8 text-[#926D65] text-center">Meet the Team</h1>
+            <h1 className={`text-7xl font-bold my-8 text-[#926D65] text-center ${fredricka.className}`}
+            >Meet the Team</h1>
             <div className="grid mx-4 place-items-center lg:grid-cols-3  grid-col-1 ">
                 {teamMembers.map((teamMember) => (
                     <div className=" m-4 transition duration-500 w-2/3 ease-in-out transform hover:-translate-y-2  " key={teamMember.name}>
