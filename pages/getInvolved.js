@@ -8,7 +8,7 @@ export default function GetInvolved() {
                 <h1 className="text-7xl text-white font-bold mb-4">Get Involved</h1>
                 <p className="mb-8 text-xl text-white font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel sagittis velit. Sed tincidunt elementum nisi, vel hendrerit nulla dapibus id.</p>
                 <div className="flex justify-center my-8 mt-16 pt-24 space-x-8">
-                    <Link href="/share-story">
+                    <Link href="/share-your-story">
                         <button className="px-6 py-3 transition duration-300 ease-in-out transform hover:-translate-y-1 w-90 border-4 border-black text-black font-bold rounded hover:bg-black hover:text-white ">Share Your Story</button>
                     </Link>
                     <Link href="/join-us">
