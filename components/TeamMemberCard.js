@@ -1,5 +1,7 @@
-import { useState } from 'react';
-
+import { use, useState } from 'react';
+import Aos from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 const TeamMemberCard = ({ name, designation, description, imageUrl }) => {
     const [hovered, setHovered] = useState(false);
 
@@ -7,15 +9,19 @@ const TeamMemberCard = ({ name, designation, description, imageUrl }) => {
         setHovered(true);
     };
 
+
     const handleMouseLeave = () => {
         setHovered(false);
     };
-
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
     return (
         <div
             className="relative rounded-lg   overflow-hidden group"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            data-aos="flip-left"
         >
             <img src={imageUrl} alt={name} className="w-full h-auto" />
             <div
