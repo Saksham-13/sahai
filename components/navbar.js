@@ -36,10 +36,10 @@ function NavLink({ to, children, dropdown }) {
           <Link href="/sahaiStories" className="block px-4 py-2 hover:bg-gray-100">
             #SahaiStories
           </Link>
-          <Link href="/category2" className="block px-4 py-2 hover:bg-gray-100">
+          <Link href="/understandingMentalHealth" className="block px-4 py-2 hover:bg-gray-100">
             Understanding Mental Health
           </Link>
-          <Link href="/category3" className="block px-4 py-2 hover:bg-gray-100">
+          <Link href="/others" className="block px-4 py-2 hover:bg-gray-100">
             Others
           </Link>
         </div>

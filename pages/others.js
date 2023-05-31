@@ -17,7 +17,7 @@ export async function getStaticProps() {
       frontmatter,
     };
 
-  }).filter((post) => { return (post.frontmatter.category === 'SahaiStories')});
+  }).filter((post) => { return (post.frontmatter.category === 'Others')});
 
   return {
     props: {
