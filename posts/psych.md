@@ -1,5 +1,5 @@
 ---  
-title: On Understanding Mental Health: The Role of a Psychologist and Psychiatrists
+title: On Understanding Mental Health--The Role of a Psychologist and Psychiatrists
 date: '2021-04-15'  
 tags: [information,therapy]  
 description: A poem about being worth it  
