@@ -3,6 +3,7 @@ title: Parental Pressure & How it Made Me Grow Into an Anxious Adult
 date: '2021-02-09'  
 tags: [anxiety,growth]  
 description: How those around us can influence our mental health  
+socialImage: images/How to find the right therapist for you_.jpg
 author_name: Jainy Zavier
 category: SahaiStories
 ---  
