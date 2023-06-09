@@ -1,11 +1,11 @@
 ---  
 title: How to Find the Right Therapist for You?
-date: '2023-01-23'  
+date: '2021-04-21'  
 tags: [anxiety,therapy]  
 description: The blog describes how to find a therapist  
 socialImage: images/How to find the right therapist for you_.jpg
 author_name: Palak Jain
-category: SahaiStories
+category: UnderstandingMentalHealth
 ---  
 
 Finding the right therapist is like learning how to cook. You start with learning the basics first, like boiling the water, cooking rice or cutting the vegetables. Then you start experimenting with the spices, attempting to get the perfect blend until you find the perfect mix of spices to put in that is per your liking of taste. Similarly, finding a competent therapist takes patience. Therapy is never a quick fix, and it often takes several sessions to see the progress. 
