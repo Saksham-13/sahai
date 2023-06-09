@@ -1,5 +1,5 @@
 ---  
-title: World Eating Disorder Actions Day: Overcoming Our Biases
+title: World Eating Disorder Actions Day-Overcoming Our Biases
 date: '2021-06-01'  
 tags: [eating disorder,anxiety]  
 description: World Eating Disorder Day and reflecting on our actions  
