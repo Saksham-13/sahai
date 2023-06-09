@@ -4,7 +4,7 @@ date: '2021-07-21'
 tags: [eating disorders, information]  
 description: What is binge eating disorder? 
 socialImage: images/How to find the right therapist for you_.jpg
-author_name: Rishika Sen
+author_name: Divya Shetty
 category: UnderstandingMentalHealth
 ---  
 Binge Eating disorder (BED), is a serious, life-threatening but curable disorder. Frequently consuming large amounts of food while feeling uncomfortable and feeling that one's eating behaviour is out of control is known as Binge Eating.
