@@ -6,6 +6,7 @@ const jobs = [
         title: "Software Engineer",
         description: "We are looking for a software engineer with experience in React and Node.js to join our team. You will work on developing and maintaining our web applications, and collaborate with our designers and product managers to deliver high-quality software. If you're passionate about creating great user experiences and solving complex problems, we'd love to hear from you.",
     },
+    
     {
         id: 2,
         title: "UX Designer",

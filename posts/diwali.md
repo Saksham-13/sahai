@@ -1,5 +1,5 @@
 ---  
-title: Symbolising Diwali: Triumph over darkness
+title: 'Symbolising Diwali: Triumph over darkness'
 date: '2022-11-05'  
 tags: [hope,self-esteem]  
 description: Diwali and mental health

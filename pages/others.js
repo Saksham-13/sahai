@@ -28,7 +28,7 @@ export async function getStaticProps() {
 export default function Stories({ posts }) {
     return (
         <div className='grid grid-cols-1 mx-5 mt-8 md:grid-cols-3 lg:grid-cols-3 gap-5 p-4 md:p-0'>
-      {posts.slice(0, 3).map(({ slug, frontmatter }) => (
+      {posts.map(({ slug, frontmatter }) => (
         <div
           key={slug}
           className='border border-gray-200  bg-[#E3BA9B] rounded-xl p-4 shadow-md overflow-hidden lg:m-8 flex flex-col hover:shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105'

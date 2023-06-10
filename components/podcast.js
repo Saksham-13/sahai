@@ -16,7 +16,7 @@ export default function Pdocast() {
             >
                 <h1 className="text-4xl text-black  font-mono">CHAI WITH SAHAI </h1>
                 <h1 className="text-4xl text-black  font-mono">OUR PODCAST</h1>
-                <p className='text-2xl mt-8'>Chai with Sahai, aims to start intriguing and eye-opening conversations around mental health and disorders. Join our hosts with a cup of tea to be a part of the conversation!</p>
+                <p className='text-2xl mt-8 '>Chai with Sahai, aims to start intriguing and eye-opening conversations around mental health and disorders. Join our hosts with a cup of tea to be a part of the conversation!</p>
                  {/* a button */}
                     <div className='flex  gap-4 mt-8'>
                         <Link href='https://open.spotify.com/show/2Y17fgONRJ1jkhb7ZpAisD?si=5ac56571463d47a0' className=' lg:mx-0 mx-auto'>
