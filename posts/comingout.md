@@ -3,7 +3,7 @@ title: Coming Out - An Ongoing Journey
 date: '2021-06-10'  
 tags: [pride,identity]  
 description: What discovering and understanding your sexuality can look like  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: 'https://media.discordapp.net/attachments/1113150113037156515/1117468107892600924/Coming_Out_-_An_Ongoing_Journey.jpg?width=451&height=678'
 author_name: Mohona B
 category: SahaiStories
 ---  
