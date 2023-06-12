@@ -3,7 +3,7 @@ title: We can heal — together
 date: '2021-01-28'  
 tags: [anxiety,therapy]  
 description: The blog describes how to find a therapist  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/wecanheal.jpg
 author_name: Shruti Dewan
 category: SahaiStories
 ---  
