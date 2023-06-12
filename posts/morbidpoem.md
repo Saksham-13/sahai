@@ -3,7 +3,7 @@ title: A Morbid Poem
 date: '2021-02-19'  
 tags: [mental illness,depression]  
 description: A poem about what it feels like to find to be depressed  
-socialImage: 'https://github.com/Saksham-13/sahai/blob/master/public/images/a%20morbit%20poem.jpg'
+socialImage: 'images/a%20morbit%20poem.jpg'
 author_name: Mohona B
 category: SahaiStories
 ---  
