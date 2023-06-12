@@ -3,7 +3,7 @@ title: Looking through the TV screen
 date: '2022-02-28'  
 tags: [mental health,self-esteem]  
 description: How do tv shows impact us? 
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/tvscreen.jpg
 author_name: Preethi Hiremath
 category: SahaiStories
 ---  
