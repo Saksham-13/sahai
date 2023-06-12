@@ -31,7 +31,7 @@ export default function Stories({ posts }) {
       {posts.map(({ slug, frontmatter }) => (
         <div
           key={slug}
-          className='border border-gray-200  bg-[#E3BA9B] rounded-xl p-4 shadow-md overflow-hidden lg:m-8 flex flex-col hover:shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105'
+          className='border border-gray-200  bg-[#9A7B6C] rounded-xl p-4 shadow-md overflow-hidden lg:m-8 flex flex-col hover:shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105'
         >
           <Link href={`/post/${slug}`}>
 
@@ -41,8 +41,9 @@ export default function Stories({ posts }) {
               alt={frontmatter.title}
               src={`/${frontmatter.socialImage}`}
               className=' object-cover rounded-md  w-96 h-48 ' />
-            <h1 className=' text-white text-lg font-mono font-bold text-center p-4 '>{frontmatter.title}</h1>
-            <p className='text-gray-100 font-mono text-center p-4'>{frontmatter.description}</p>
+            <h1 className=' text-white  font-bold text-center p-4 '>{frontmatter.title}</h1>
+            <p className='text-gray-100  text-center p-4'>{frontmatter.description}</p>
+            <p className='text-gray-100  text-center p-4'>written by - {frontmatter.author_name}</p>
           </Link>
         </div>
       ))}

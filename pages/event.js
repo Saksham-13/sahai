@@ -34,7 +34,13 @@ const images = [
     instagramUrl: 'https://www.instagram.com/reel/CQBamcElaim/',
   },
 ];
-
+const teamMembers = [
+  {
+      name: 'BMSCE x Sahai',
+      description: 'We had our first in-person event on 30th April 2022 with the Rotaract Club in BMSCE. We conducted a workshop with the students of AMrutha Shishu Nivasa on exam stress and we provided them with de-stressor activities like painting and stress-management workshops. It was so heartwarming and an amazing experience for all of us! We can’t wait to host more workshops.',
+      imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1117840251264700508/DSC_0107.JPG',
+  },
+];
 const InstagramImages = () => {
   return (
     <div className="flex flex-col px-2 items-center justify-center">
@@ -42,6 +48,8 @@ const InstagramImages = () => {
             >Our Events</h1>
     <h1 className="md:text-2x text-lg md:w-2/3 font-bold my-8 text-[#926D65] text-center">Sahai frequently hosts both in-person and virtual events to facilitate discussions about mental health. Here are some of our recent events!
 </h1>
+
+<h2 className={`text-5xl font-bold mt-20 text-[#926D65] text-center $`}>Online</h2>
 
     <div className="grid p-8 grid-col-1 md:grid-cols-3 gap-8">
       {images.map((image) => (
@@ -51,6 +59,22 @@ const InstagramImages = () => {
             <img src="/instagram.svg" alt="Instagram icon" className="h-6 w-6 text-white" />
           </div>
         </a>
+      ))}
+      {/* map over the teamMembers object which have imageUrl, image name and description, render the image as a card with name and description overlayed */}
+      
+
+    </div>
+    <h2 className={`text-5xl font-bold mt-20 mb-16 text-[#926D65] text-center $`}>Offline</h2>
+      <div className="">
+      {teamMembers.map((member,index) => (
+
+        <div key={member.name} className={`p-8 flex gap-4 flex-col ${ index % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'} relative`}>
+          <img src={member.imageUrl} alt="Team member" className="rounded md:w-1/2 h-full object-cover" />
+          <div className="  md:p-4 my-auto">
+            <h2 className="text-xl  font-bold mb-4 text-[#724E3B]">{member.name}</h2>
+            <p className="text-lg  text-[#724E3B]">{member.description}</p>
+            </div>
+            </div>
       ))}
     </div>
     </div>

@@ -83,7 +83,7 @@ export default function Home({ posts }) {
       {posts.slice(0, 3).map(({ slug, frontmatter }) => (
         <div
           key={slug}
-          className='border border-gray-200  bg-[#E3BA9B] rounded-xl p-4 shadow-md overflow-hidden lg:m-8 flex flex-col hover:shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105'
+          className='border border-gray-200  bg-[#9A7B6C] rounded-xl p-4 shadow-md overflow-hidden lg:m-8 flex flex-col hover:shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105'
         >
           <Link href={`/post/${slug}`}>
 
