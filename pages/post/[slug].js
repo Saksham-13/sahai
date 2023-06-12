@@ -26,9 +26,11 @@ export async function getStaticPaths() {
   }
   export default function PostPage({ frontmatter, content }) {
     return (
-      <div className='prose my-9 mx-auto'>
-        <h1>{frontmatter.title}</h1>
+      <div className='prose  px-4 my-9 mx-auto'>
+        <h1 className='text-4xl font-bold'>{frontmatter.title}</h1>
+        <p>Written by - {frontmatter.author_name}</p>
         <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+       
       </div>
     );
   }

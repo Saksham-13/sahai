@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import Link from 'next/link';
 const ImageText = () => {
     return (
         <div className="flex flex-col lg:flex-row items-center  lg:my-24 lg:items-start justify-center max-w-6xl mx-auto py-8 px-4 lg:px-0">
@@ -13,21 +13,19 @@ const ImageText = () => {
                 />
             </div>
             <div className="lg:w-1/2">
-                <h1 className="text-4xl font-bold mb-4">Share Your Story</h1>
-                <p className="text-lg leading-7">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-                    augue ut ex laoreet, quis tempus tellus interdum. Nullam semper nisl
-                    mauris, vitae pharetra augue dictum in. Suspendisse potenti. Proin
-                    commodo mauris vitae dapibus luctus. Nullam efficitur, ipsum in
-                    bibendum semper, augue nisl facilisis lectus, a finibus justo nisl id
-                    dolor. Vestibulum in maximus justo, non pharetra augue. Nulla facilisi.
-                    Sed dignissim, libero vel aliquam eleifend, eros risus luctus augue,
-                    id eleifend lacus quam id dolor. Aliquam at diam vel enim varius
-                    commodo. Duis pretium aliquam semper. Proin gravida sem vel nisl
-                    faucibus, non tristique nulla scelerisque. Vestibulum eget fermentum
-                    ipsum. Aenean ultrices nisl nec augue vehicula, ac consectetur eros
-                    rhoncus.
-                </p>
+                <h1 className="text-4xl text-center font-bold mb-16">Share Your Story</h1>
+                <div
+      className='flex flex-col  items-center justify-center'
+      >
+        <Link href='forms.gle/ucs23STuPJDUBsnw7'>
+        <button
+        className=' border-[#9A7B6C] border text-[#9A7B6C] font-bold rounded-md p-5 my-4 hover:bg-[#9A7B6C] hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105'
+        >
+          Write to us
+        </button>
+        </Link>
+        </div>
+                
             </div>
         </div>
     );

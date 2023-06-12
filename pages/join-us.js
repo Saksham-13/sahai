@@ -8,21 +8,16 @@ const jobs = [
     },
     {
         id: 2,
-        title: "PR Team",
-        description: "The PR team member will be responsible for conducting outreach. This may include reaching out to and building relationships with other organizations, schools, or professionals; promoting our activities (events, for example); and generally being an outspoken ambassador for Sahai within their spheres of influence.",
+        title: "Events and PR Team",
+        description: "The Events and PR team member will be responsible for conducting outreach, planning and coordinating events. This may include building relationships with other organizations, schools, or professionals; promoting our activities. We are looking for experience in working with events, as well as the vision and patience necessary to execute them.",
     },
     {
         id: 3,
-        title: "Events Team",
-        description: "The events team members will plan, coordinate, and manage future events for Sahai. We are looking for experience in working with events in any capacity, as well as the vision and patience necessary to execute them.",
-    },
-    {
-        id: 4,
         title: "Content Team",
         description: "The content team will be responsible for creating content for Sahai, as well as planning the direction of Sahai's content. This content could include written blogs, artwork, ideas, or text for Instagram posts, and so on. We are looking for strong writers and visionaries!",
     },
     {
-        id: 5,
+        id: 4,
         title: "Podcast Team",
         description: "The podcast team will be responsible for helping the execution of our podcast, Chai with Sahai. This could include brainstorming new ideas, reaching out to potential and suitable guests, and hosting podcasts!",
     },
@@ -43,7 +38,7 @@ export default function JoinUs() {
                                 <p className="mb-4">{job.description}</p>
                             </div>
                             <div>
-                                <a href={job.applyLink} target="_blank" rel="noopener noreferrer" className="text-white bg-[#956E66] border-0 py-2 px-8 focus:outline-none hover:bg-[#E2BA9B] rounded text-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105rounded">Apply Now</a>
+                                <a href={"https://forms.gle/uueV7sPdFQtbDx339"} target="_blank" rel="noopener noreferrer" className="text-white bg-[#956E66] border-0 py-2 px-8 focus:outline-none hover:bg-[#E2BA9B] rounded text-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105rounded">Apply Now</a>
                             </div>
                         </div>
                     ))}

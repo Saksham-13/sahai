@@ -1,4 +1,5 @@
 // component for contact form
+import fredricka from '../components/fonts/fredricka';
 export default function Contact() {
     
     return(
@@ -10,7 +11,9 @@ export default function Contact() {
         >
         <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-8">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+            <h1 
+          className={`text-6xl my-4 font-bold  ${fredricka.className} text-[#926D65]` }
+          >
                 Contact Us
               </h1>
               

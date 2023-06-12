@@ -1,11 +1,11 @@
-
+import fredricka from '../components/fonts/fredricka';
 export default function ourStory() {
     return (
 
       <div
       className="container flex flex-col h-[90vh] items-center justify-center mx-auto"
       >
-         <h1 className="text-4xl my-8 font-bold text-center">OUR STORY</h1>
+         <h1 className={`text-7xl   text-[#926D65] text-center ${fredricka.className} my-8 font-bold `}>OUR STORY</h1>
         <div className=" px-4 prose text-center w-full text-xl font-lovelo-line-bold flex flex-col items-center justify-center">
         We started out as three individuals passionate to create change about the perception and care of mental health in Bangalore. 
 

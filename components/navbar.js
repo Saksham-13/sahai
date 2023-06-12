@@ -119,7 +119,7 @@ function MobileNav({ open, setOpen }) {
         </Link>
         <Link
           className="text-xl font-normal my-4"
-          href="/contact"
+          href="https://open.spotify.com/show/2Y17fgONRJ1jkhb7ZpAisD?si=32131090379f495b"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
