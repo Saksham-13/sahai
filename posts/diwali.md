@@ -3,7 +3,7 @@ title: 'Symbolising Diwali: Triumph over darkness'
 date: '2022-11-05'  
 tags: [hope,self-esteem]  
 description: Diwali and mental health
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/symbolisingdiwali.jpg
 author_name: Ananya Pudipeddi
 category: Others
 ---  
