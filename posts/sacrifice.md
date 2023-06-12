@@ -3,7 +3,7 @@ title: The impact of self-sacrifice on our mothers
 date: '2021-05-25'  
 tags: [mothers,self-esteem]  
 description: About the sacrifices our mother's make 
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/mothersday.jpg
 author_name: Shritama Das
 category: Others
 ---  
