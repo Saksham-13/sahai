@@ -3,7 +3,7 @@ title: Of the Motherhood That We Know, Accept and Acknowledge
 date: '2021-05-21'  
 tags: [mother,therapy]  
 description: Mother's day blog about motherhood  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/ofthemotherhood.jpg
 author_name: Sonali
 category: Others
 ---  
