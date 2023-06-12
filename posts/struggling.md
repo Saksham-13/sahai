@@ -3,7 +3,7 @@ title: How to help a friend struggling with mental health
 date: '2022-08-06'  
 tags: [hope,self-esteem]  
 description: How to support someone struggling
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/helpfriend.jpg
 author_name: Oishi G
 category: Others
 ---  
