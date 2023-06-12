@@ -3,7 +3,7 @@ title: Hope—In The Midst of Uncertainty
 date: '2021-03-29'  
 tags: [hope,anxiety]  
 description: The power of hope  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/Hope.jpg
 author_name: June Trevor
 category: SahaiStories
 ---  
