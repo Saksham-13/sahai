@@ -3,7 +3,7 @@ title: How exams can be a trigger for anxiety and stress
 date: '2021-03-11'  
 tags: [anxiety, stress]  
 description: Exams and how they impact our well-being
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/examtrigger.jpg
 author_name: Shruti Singh
 category: Others
 ---  
