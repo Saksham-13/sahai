@@ -3,7 +3,7 @@ title: The Negative Effects of Hustle Culture
 date: '2021-09-25'  
 tags: [anxiety,hustle]  
 description: Hustle Culture and it's consequences
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/hustle.jpg
 author_name: Palak Jain
 category: Others
 ---  
