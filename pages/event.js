@@ -2,28 +2,36 @@ import React from 'react';
 import fredricka from '../components/fonts/fredricka';
 const images = [
   {
-    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117788768724856852/image.png?width=604&height=936',
-    instagramUrl: 'https://www.instagram.com/reel/CQBamcElaim/',
+    url: 'https://cdn.discordapp.com/attachments/1113150113037156515/1117857947662430360/254567597_308209807533253_5089678356390873516_n.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/CV8MWyWI9Nv/',
   },
   {
-    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117788890682642482/image.png?width=604&height=938',
-    instagramUrl: 'https://www.instagram.com/reel/CQoKPI4F80J/',
+    url: 'https://cdn.discordapp.com/attachments/1113150113037156515/1117858606847631390/245845246_929016427997198_9208190800803144050_n.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/CVDI9MkIU5R/',
   },
   {
-    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117788976233844787/image.png?width=522&height=938',
-    instagramUrl: 'https://www.instagram.com/reel/CRMd16klgWo/',
+    url: 'https://cdn.discordapp.com/attachments/1113150113037156515/1117858917435854958/244029552_4584296558257949_1086559226263016795_n.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/CUkVKX6FVG8/',
   },
   {
-    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117789137483878410/image.png?width=526&height=936',
-    instagramUrl: 'https://www.instagram.com/reel/CS1lE_AF9Y2/',
-  },
-  {
-    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117789227585908796/image.png?width=602&height=936',
+    url: 'https://cdn.discordapp.com/attachments/1113150113037156515/1117859117051154482/242148613_136455552032201_4710222632495287400_n.jpg',
     instagramUrl: 'https://www.instagram.com/reel/CT7bZ5iB9b-/',
   },
   {
-    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117789317406928967/image.png?width=600&height=938',
-    instagramUrl: 'https://www.instagram.com/reel/CUkVKX6FVG8/',
+    url: 'https://cdn.discordapp.com/attachments/1113150113037156515/1117859317278834828/239972556_411359693746294_928683078936127646_n.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/CS1lE_AF9Y2/',
+  },
+  {
+    url: 'https://cdn.discordapp.com/attachments/1113150113037156515/1117859646493954080/213218022_331242645327376_2160161266318360797_n.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/CRMd16klgWo/',
+  },
+ {
+    url: 'https://cdn.discordapp.com/attachments/1113150113037156515/1117860060153008178/209048185_327781065574210_8035021716539661305_n.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/CQoKPI4F80J/',
+  },
+ {
+    url: 'https://cdn.discordapp.com/attachments/1113150113037156515/1117859892582166538/200207871_530008938360188_7678036842228650018_n.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/CQBamcElaim/',
   },
 ];
 
@@ -37,9 +45,9 @@ const InstagramImages = () => {
 
     <div className="grid p-8 grid-col-1 md:grid-cols-3 gap-8">
       {images.map((image) => (
-        <a key={image.instagramUrl} href={image.instagramUrl} target="_blank" rel="noopener noreferrer" className=" rounded  relative">
+        <a key={image.instagramUrl} href={image.instagramUrl} target="_blank" rel="noopener noreferrer" className=" p-8 rounded  relative">
           <img src={image.url} alt="Instagram post" className=" rounded w-full h-full object-cover" />
-          <div className="absolute bottom-0 right-0 m-2">
+          <div className="absolute bottom-10 right-10 m-2">
             <img src="/instagram.svg" alt="Instagram icon" className="h-6 w-6 text-white" />
           </div>
         </a>

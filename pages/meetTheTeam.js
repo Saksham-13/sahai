@@ -144,8 +144,8 @@ const Founder = ({ name, designation, description, imageUrl, reverse }) => {
   
     return (
       <div className={`flex  flex-col  ${flexDirection} items-center justify-center gap-4 my-16`}>
-        <img src={imageUrl} alt={name} className="rounded w-64 h-64 md:w-48 md:h-48 object-cover" />
-        <div className="flex md:w-1/2 p-6 flex-col gap-2">
+        <img src={imageUrl} alt={name} className="rounded w-82 h-82 md:w-80 md:h-80 object-cover" />
+        <div className="flex text-[#724E3B] md:w-1/2 p-6 flex-col gap-2">
           <h2 className="text-3xl font-bold">{name}</h2>
           <p className="text-xl font-medium">{designation}</p>
           <p className="text-lg">{description}</p>
@@ -159,15 +159,15 @@ const MeetTheTeamPage = () => {
       }, []);
     return (
         <>
-            <h1 className={`text-7xl font-bold my-8 text-[#926D65] text-center ${fredricka.className}`}
+            <h1 className={`text-7xl font-bold my-8 text-[#724E3B] text-center ${fredricka.className}`}
             >Meet the Team</h1>
-            <h2 className="text-3xl font-bold mt-16 text-[#926D65] text-center">Founders</h2>
+            <h2 className={`text-5xl font-bold mt-20 text-[#926D65] text-center ${fredricka.className}`}>Founders</h2>
             <div className="container mx-auto">
       {founders.map((member, index) => (
         <Founder key={member.name} {...member} reverse={index % 2 !== 0} />
       ))}
     </div>
-    <h2 className="text-3xl font-bold mt-16 mb-8 text-[#926D65] text-center">The Team</h2>
+    <h2 className="text-3xl font-bold mt-16 mb-8 text-[#724E3B] text-center">The Team</h2>
             <div className="grid mx-4 place-items-center lg:grid-cols-3  grid-col-1 ">
                 {team.map((teamMember) => (
                     <div className=" m-4 transition duration-500 w-2/3 ease-in-out transform hover:-translate-y-2  " key={teamMember.name}>
