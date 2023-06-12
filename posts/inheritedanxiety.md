@@ -3,7 +3,7 @@ title: My Inherited Anxiety—And How I Chose to Cope with It
 date: '2021-03-04'  
 tags: [growth,anxiety]  
 description: What does intergenrrational anxiety look like and how do break free?  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/MyInheritedAnxiety.jpg
 author_name: Palak Jain
 category: SahaiStories
 ---  
