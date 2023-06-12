@@ -3,7 +3,7 @@ title: Worth It
 date: '2021-04-15'  
 tags: [hope,self-esteem]  
 description: A poem about being worth it  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/worthit.jpg
 author_name: Mohona B
 category: Others
 ---  
