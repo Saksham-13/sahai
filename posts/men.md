@@ -3,7 +3,7 @@ title: Let’s talk about men’s mental health
 date: '2021-08-08'  
 tags: [men, advocacy]  
 description: The importance of including men in the conversation about mental health
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/Men.jpg
 author_name: Nia Dey
 category: UnderstandingMentalHealth
 ---  
