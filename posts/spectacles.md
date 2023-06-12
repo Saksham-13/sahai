@@ -3,7 +3,7 @@ title: It's Time We Wore our Spectacles
 date: '2021-06-17'  
 tags: [hope,earth]  
 description: A story about Body Positivity
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/BodyPositivitystory.jpg
 author_name: Palak Jain, Sunayani P. Livingstone
 category: Others
 ---  
