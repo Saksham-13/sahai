@@ -3,7 +3,7 @@ title: But, Beta When are You Getting Married? A Spiral into Anxiety!
 date: '2021-03-17'  
 tags: [pressure,anxiety]  
 description: How societal pressures contribute to our anxiety  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/butbeta.jpg
 author_name: Truly Unfazed
 category: SahaiStories
 ---  
