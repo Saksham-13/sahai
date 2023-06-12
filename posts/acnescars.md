@@ -3,7 +3,7 @@ title:  'How Acne Scars affected my Self-confidence'
 date: '2021-06-09'  
 tags: [acne,self-esteem]  
 description: How to improve our self confidence?  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/acnescar.jpg
 author_name: Anamika K
 category: SahaiStories
 ---  
