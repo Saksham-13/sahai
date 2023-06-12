@@ -3,7 +3,7 @@ title: Understanding Major Depressive Disorder
 date: '2021-06-20'  
 tags: [depression, information]  
 description: What are major depressive disorders? 
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/depression.jpg
 author_name: Palak Jain
 category: UnderstandingMentalHealth
 ---  
