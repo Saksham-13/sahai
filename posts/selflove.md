@@ -3,7 +3,7 @@ title: Self-Love and Dealing with Self-Doubt
 date: '2021-09-20'  
 tags: [hope,self-esteem]  
 description: How to deal with self-doubt  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/selflove.jpg
 author_name: Priya Srinand
 category: Others
 ---  
