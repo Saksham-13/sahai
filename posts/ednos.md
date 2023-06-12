@@ -3,7 +3,7 @@ title: Understanding EDNOS (Eating Disorders not Otherwise Specified)
 date: '2021-07-27'  
 tags: [eating disorders, information]  
 description: What is EDNOS? 
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/EDNOS.jpg
 author_name: Oishi Gattani
 category: UnderstandingMentalHealth
 ---  
