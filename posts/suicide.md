@@ -1,5 +1,5 @@
 ---  
-title: 'India's Mental Health Crisis: Rising Suicide Rates among Students'
+title: "India's Mental Health Crisis: Rising Suicide Rates among Students"
 date: '2021-03-20'  
 tags: [hope,self-esteem]  
 description: India has a mental health crisis that isn't talked about. Learn more!  

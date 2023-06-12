@@ -1,5 +1,5 @@
 ---  
-title: How Acne Scars affected my Self-confidence
+title:  'How Acne Scars affected my Self-confidence'
 date: '2021-06-09'  
 tags: [acne,self-esteem]  
 description: How to improve our self confidence?  

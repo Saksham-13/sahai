@@ -1,29 +1,40 @@
 import Link from 'next/link'
-
+import fredricka from '../components/fonts/fredricka';
 const jobs = [
     {
         id: 1,
-        title: "Software Engineer",
-        description: "We are looking for a software engineer with experience in React and Node.js to join our team. You will work on developing and maintaining our web applications, and collaborate with our designers and product managers to deliver high-quality software. If you're passionate about creating great user experiences and solving complex problems, we'd love to hear from you.",
+        title: "Social Media Team",
+        description: "The social media team will be chiefly responsible for designing Instagram posts for the Instagram page. We are looking for proficiency in graphic design! This would mean setting deadlines, managing the content and posting posts on our page.",
     },
-    
     {
         id: 2,
-        title: "UX Designer",
-        description: "We are seeking a UX Designer to join our design team. You will work on creating and improving user experiences for our web and mobile applications, and collaborate with our developers and product managers to deliver intuitive and delightful user interfaces. If you have a passion for design and a portfolio of outstanding work, we'd love to hear from you.",
+        title: "PR Team",
+        description: "The PR team member will be responsible for conducting outreach. This may include reaching out to and building relationships with other organizations, schools, or professionals; promoting our activities (events, for example); and generally being an outspoken ambassador for Sahai within their spheres of influence.",
     },
     {
         id: 3,
-        title: "Product Manager",
-        description: "We are looking for a Product Manager to join our product team. You will be responsible for defining and driving the roadmap for our web and mobile applications, working closely with our designers, developers, and other stakeholders to deliver high-quality software. If you have a passion for product strategy and a track record of delivering successful products, we'd love to hear from you.",
+        title: "Events Team",
+        description: "The events team members will plan, coordinate, and manage future events for Sahai. We are looking for experience in working with events in any capacity, as well as the vision and patience necessary to execute them.",
+    },
+    {
+        id: 4,
+        title: "Content Team",
+        description: "The content team will be responsible for creating content for Sahai, as well as planning the direction of Sahai's content. This content could include written blogs, artwork, ideas, or text for Instagram posts, and so on. We are looking for strong writers and visionaries!",
+    },
+    {
+        id: 5,
+        title: "Podcast Team",
+        description: "The podcast team will be responsible for helping the execution of our podcast, Chai with Sahai. This could include brainstorming new ideas, reaching out to potential and suitable guests, and hosting podcasts!",
     },
 ]
+
 
 export default function JoinUs() {
     return (
         <div className="flex flex-col justify-center items-center h-screen bg-cover bg-center bg-gray-100" style={{ backgroundImage: "url('/background-image.jpg')" }}>
             <div className="container mx-auto px-4 py-8">
-                <h1 className="text-4xl font-bold mb-8">Open Roles</h1>
+               <h1 className={`text-7xl font-bold my-8 text-[#926D65] text-center ${fredricka.className}`}
+            >Open Roles</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {jobs.map(job => (
                         <div key={job.id} className="border p-8 rounded-lg flex flex-col justify-between">
@@ -32,7 +43,7 @@ export default function JoinUs() {
                                 <p className="mb-4">{job.description}</p>
                             </div>
                             <div>
-                                <a href={job.applyLink} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Apply Now</a>
+                                <a href={job.applyLink} target="_blank" rel="noopener noreferrer" className="text-white bg-[#956E66] border-0 py-2 px-8 focus:outline-none hover:bg-[#E2BA9B] rounded text-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105rounded">Apply Now</a>
                             </div>
                         </div>
                     ))}

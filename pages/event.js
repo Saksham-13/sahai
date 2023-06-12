@@ -1,50 +1,52 @@
-import React, { useState } from 'react';
-
+import React from 'react';
+import fredricka from '../components/fonts/fredricka';
 const images = [
-  { id: 1, src: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150319937990757/MG_4283-01_1.jpeg', title: 'Image 1' },
-  { id: 2, src: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150661996073071/Rishika_Sen.jpg', title: 'Image 2' },
-  { id: 3, src: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150319937990757/MG_4283-01_1.jpeg', title: 'Image 3' },
-  { id: 4, src: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150661996073071/Rishika_Sen.jpg', title: 'Image 4' },
+  {
+    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117788768724856852/image.png?width=604&height=936',
+    instagramUrl: 'https://www.instagram.com/reel/CQBamcElaim/',
+  },
+  {
+    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117788890682642482/image.png?width=604&height=938',
+    instagramUrl: 'https://www.instagram.com/reel/CQoKPI4F80J/',
+  },
+  {
+    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117788976233844787/image.png?width=522&height=938',
+    instagramUrl: 'https://www.instagram.com/reel/CRMd16klgWo/',
+  },
+  {
+    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117789137483878410/image.png?width=526&height=936',
+    instagramUrl: 'https://www.instagram.com/reel/CS1lE_AF9Y2/',
+  },
+  {
+    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117789227585908796/image.png?width=602&height=936',
+    instagramUrl: 'https://www.instagram.com/reel/CT7bZ5iB9b-/',
+  },
+  {
+    url: 'https://media.discordapp.net/attachments/1117788727020892190/1117789317406928967/image.png?width=600&height=938',
+    instagramUrl: 'https://www.instagram.com/reel/CUkVKX6FVG8/',
+  },
 ];
 
-const Carousel = () => {
-  const [currentImage, setCurrentImage] = useState(0);
-
-  const handlePrevClick = () => {
-    setCurrentImage(currentImage === 0 ? images.length - 1 : currentImage - 1);
-  };
-
-  const handleNextClick = () => {
-    setCurrentImage(currentImage === images.length - 1 ? 0 : currentImage + 1);
-  };
-
+const InstagramImages = () => {
   return (
-    <div className="relative">
-      <div className="absolute inset-0 flex items-center justify-center">
-        <img
-          src={images[currentImage].src}
-          alt={images[currentImage].title}
-          className="w-full h-full object-cover"
-        />
-      </div>
-      <div className="absolute inset-y-0 left-0 flex items-center justify-center">
-        <button
-          onClick={handlePrevClick}
-          className="p-4 bg-gray-800 bg-opacity-50 text-white hover:bg-opacity-75 focus:outline-none"
-        >
-          Prev
-        </button>
-      </div>
-      <div className="absolute inset-y-0 right-0 flex items-center justify-center">
-        <button
-          onClick={handleNextClick}
-          className="p-4 bg-gray-800 bg-opacity-50 text-white hover:bg-opacity-75 focus:outline-none"
-        >
-          Next
-        </button>
-      </div>
+    <div className="flex flex-col px-2 items-center justify-center">
+    <h1 className={`text-7xl font-bold my-8 text-[#926D65] text-center ${fredricka.className}`}
+            >Our Events</h1>
+    <h1 className="md:text-2x text-lg md:w-2/3 font-bold my-8 text-[#926D65] text-center">Sahai frequently hosts both in-person and virtual events to facilitate discussions about mental health. Here are some of our recent events!
+</h1>
+
+    <div className="grid p-8 grid-col-1 md:grid-cols-3 gap-8">
+      {images.map((image) => (
+        <a key={image.instagramUrl} href={image.instagramUrl} target="_blank" rel="noopener noreferrer" className=" rounded  relative">
+          <img src={image.url} alt="Instagram post" className=" rounded w-full h-full object-cover" />
+          <div className="absolute bottom-0 right-0 m-2">
+            <img src="/instagram.svg" alt="Instagram icon" className="h-6 w-6 text-white" />
+          </div>
+        </a>
+      ))}
+    </div>
     </div>
   );
 };
 
-export default Carousel;
+export default InstagramImages;

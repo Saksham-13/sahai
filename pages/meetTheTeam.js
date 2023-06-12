@@ -5,63 +5,28 @@ import fredricka from '../components/fonts/fredricka';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { useEffect } from 'react';
-const teamMembers = [
+const founders = [
     {
-        name: 'John Doe',
-        designation: 'CEO',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        imageUrl: 'https://media.discordapp.net/attachments/972456002844766228/1097002370661093506/image.png?width=1554&height=1036',
+      name: 'Shruti Dewan',
+      designation: 'Co-Founder',
+      description: 'Shruti is the co-founder of Sahai, who is currently pursuing her bachelors degree in Computer Science Engineering. She is passionate about mental health advocacy and is a versatile member, with a huge heart for making change. Her personal experience has moulded her strong passion for her work and she firmly believes that everyone struggling deserves support. A person of many talents, Shruti is also a certified yoga instructor, skilled writer, guitarist, and thespian. In her free time, Shruti enjoys a good Netflix binge or can be found practising splits and headstands.',
+      imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150319937990757/MG_4283-01_1.jpeg',
     },
     {
-        name: 'Jane Smith',
-        designation: 'CTO',
-        description: 'Praesent vel ligula scelerisque, viverra eros ac, venenatis purus.',
-        imageUrl: 'https://media.discordapp.net/attachments/972456002844766228/1097002370661093506/image.png?width=1554&height=1036',
+      name: 'Rishika Sen',
+      designation: 'Co-Founder',
+      description: 'Rishika is a writer and a passionate mental health advocate. She believes that mental health awareness should be much more prevalent than it currently is and that mental health resources should be more accessible. Fueled by her personal experience, and will to make the world a better place, Rishika is determined to help Sahai conquer its vision. When she is not burning her retinas studying, she can be found writing or watching yet another Netflix show. Currently, Rishika is studying Psychology,  Neuroscience, and Behaviour at McMaster University.',
+      imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150661996073071/Rishika_Sen.jpg',
     },
     {
-        name: 'Bob Johnson',
-        designation: 'COO',
-        description: 'Nullam auctor mi ut magna vestibulum pulvinar.',
-        imageUrl: 'https://media.discordapp.net/attachments/972456002844766228/1097002370661093506/image.png?width=1554&height=1036',
+      name: 'Jainy Zavier',
+      designation: 'Co-Founder',
+      description: 'Jainy is a business development professional, who is also a musician, songwriter and doodle artist. She is passionate about promoting mental health awareness in India, and much of her work has been centred around this. Having struggled with her own mental health, Jainy aims to build an inclusive platform for those struggling. An addict to chai, road trips and movies, when not busy working with tech start-ups or performing gigs, you will probably find her curled up in bed watching Netflix or playing with animal friends.',
+      imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150661643731045/Jainy_Zavier.png',
     },
-    {
-        name: 'John Doe',
-        designation: 'CEO',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        imageUrl: 'https://media.discordapp.net/attachments/972456002844766228/1097002370661093506/image.png?width=1554&height=1036',
-    },
-    {
-        name: 'Jane Smith',
-        designation: 'CTO',
-        description: 'Praesent vel ligula scelerisque, viverra eros ac, venenatis purus.',
-        imageUrl: 'https://media.discordapp.net/attachments/972456002844766228/1097002370661093506/image.png?width=1554&height=1036',
-    },
-    {
-        name: 'Bob Johnson',
-        designation: 'COO',
-        description: 'Nullam auctor mi ut magna vestibulum pulvinar.',
-        imageUrl: 'https://media.discordapp.net/attachments/972456002844766228/1097002370661093506/image.png?width=1554&height=1036',
-    },
-];
+  ];
 const team  = [
-    {
-        name: 'Shruti Dewan',
-        designation: 'Co-Founder',
-        description: 'Shruti is the co-founder of Sahai, who is currently pursuing her bachelors degree in Computer Science Engineering. She is passionate about mental health advocacy and is a versatile member, with a huge heart for making change. Her personal experience has moulded her strong passion for her work and she firmly believes that everyone struggling deserves support. A person of many talents, Shruti is also a certified yoga instructor, skilled writer, guitarist, and thespian. In her free time, Shruti enjoys a good Netflix binge or can be found practising splits and headstands.',
-        imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150319937990757/MG_4283-01_1.jpeg',
-    },
-    {
-        name: 'Rishika Sen',
-        designation: 'Co-Founder',
-        description: 'Rishika is a writer and a passionate mental health advocate. She believes that mental health awareness should be much more prevalent than it currently is and that mental health resources should be more accessible. Fueled by her personal experience, and will to make the world a better place, Rishika is determined to help Sahai conquer its vision. When she is not burning her retinas studying, she can be found writing or watching yet another Netflix show. Currently, Rishika is studying Psychology,  Neuroscience, and Behaviour at McMaster University.',
-        imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150661996073071/Rishika_Sen.jpg',
-    },
-    {
-        name: 'Jainy Zavier',
-        designation: 'Co-Founder',
-        description: 'Jainy is a business development professional, who is also a musician, songwriter and doodle artist. She is passionate about promoting mental health awareness in India, and much of her work has been centred around this. Having struggled with her own mental health, Jainy aims to build an inclusive platform for those struggling. An addict to chai, road trips and movies, when not busy working with tech start-ups or performing gigs, you will probably find her curled up in bed watching Netflix or playing with animal friends.',
-        imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150661643731045/Jainy_Zavier.png',
-    },
+    
     {
         name: 'Manasavi Kesarwani',
         designation: 'Content Head',
@@ -173,7 +138,21 @@ const team  = [
         imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113153034785140866/Roshini_.jpeg',
     },
 ];
-
+const Founder = ({ name, designation, description, imageUrl, reverse }) => {
+    const flexDirection = reverse ? 'md:flex-row-reverse' : 'md:flex-row';
+    console.log(flexDirection);
+  
+    return (
+      <div className={`flex  flex-col  ${flexDirection} items-center justify-center gap-4 my-16`}>
+        <img src={imageUrl} alt={name} className="rounded w-64 h-64 md:w-48 md:h-48 object-cover" />
+        <div className="flex md:w-1/2 p-6 flex-col gap-2">
+          <h2 className="text-3xl font-bold">{name}</h2>
+          <p className="text-xl font-medium">{designation}</p>
+          <p className="text-lg">{description}</p>
+        </div>
+      </div>
+    );
+  };
 const MeetTheTeamPage = () => {
     useEffect(() => {
         AOS.init({ duration: 1500 });
@@ -182,6 +161,13 @@ const MeetTheTeamPage = () => {
         <>
             <h1 className={`text-7xl font-bold my-8 text-[#926D65] text-center ${fredricka.className}`}
             >Meet the Team</h1>
+            <h2 className="text-3xl font-bold mt-16 text-[#926D65] text-center">Founders</h2>
+            <div className="container mx-auto">
+      {founders.map((member, index) => (
+        <Founder key={member.name} {...member} reverse={index % 2 !== 0} />
+      ))}
+    </div>
+    <h2 className="text-3xl font-bold mt-16 mb-8 text-[#926D65] text-center">The Team</h2>
             <div className="grid mx-4 place-items-center lg:grid-cols-3  grid-col-1 ">
                 {team.map((teamMember) => (
                     <div className=" m-4 transition duration-500 w-2/3 ease-in-out transform hover:-translate-y-2  " key={teamMember.name}>

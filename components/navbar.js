@@ -51,11 +51,11 @@ function NavLink({ to, children, dropdown }) {
 function MobileNav({ open, setOpen }) {
   return (
     <div
-      className={`absolute top-0 left-0 h-screen w-screen  bg-orange-100 transform ${
+      className={`absolute top-0 left-0 h-screen w-screen bg-[#435559]   transform ${
         open ? "-translate-x-0" : "-translate-x-full"
       } transition-transform duration-300 ease-in-out filter drop-shadow-md `}
     >
-      <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
+      <div className="flex items-center justify-center filter drop-shadow-md bg-[#435559]  h-20">
         {" "}
         {/*logo container*/}
         <Link href="/">
@@ -68,9 +68,10 @@ function MobileNav({ open, setOpen }) {
         </Link>
         {/* <Link className="text-xl font-semibold justify-center" href="/">Sahai</Link> */}
       </div>
-      <div className="flex flex-col ml-4">
+      <div className="flex flex-col  text-white ml-4">
         <Link
           className="text-xl font-normal my-4"
+          disabled
           href="/about"
           onClick={() =>
             setTimeout(() => {
@@ -80,16 +81,41 @@ function MobileNav({ open, setOpen }) {
         >
           Resources
         </Link>
+        <p
+        className="text-xl font-normal my-4 "
+        >Blogs</p>
         <Link
-          className="text-xl font-normal my-4"
-          href="/blog"
+          className="text-xl font-normal ml-8 my-4"
+          href="/sahaiStories"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
             }, 100)
           }
         >
-          Blog
+          #SahaiStories
+        </Link>
+        <Link
+          className="text-xl font-normal ml-8 my-4"
+          href="/understandingMentalHealth"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Understanding Mental Health
+        </Link>
+        <Link
+          className="text-xl font-normal ml-8 my-4"
+          href="/others"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Others
         </Link>
         <Link
           className="text-xl font-normal my-4"
@@ -200,7 +226,7 @@ export default function Navbar() {
           <NavLink to="https://open.spotify.com/show/2Y17fgONRJ1jkhb7ZpAisD?si=32131090379f495b">
             Podcasts
           </NavLink>
-          <NavLink to="/contact">Event</NavLink>
+          <NavLink to="/event">Event</NavLink>
           <NavLink to="/ourStory">Our Story</NavLink>
           <NavLink to="/getInvolved">Get Involved</NavLink>
           <NavLink to="/meetTheTeam">Meet The Team</NavLink>
