@@ -3,7 +3,7 @@ title: The harmful side of high expectations
 date: '2021-10-09'  
 tags: [stress, insecurity]  
 description: What are the negative effects of expectations
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/expectations.jpg
 author_name: Divya Shetty
 category: UnderstandingMentalHealth
 ---  
