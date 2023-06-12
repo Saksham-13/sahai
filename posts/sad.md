@@ -4,7 +4,7 @@ date: '2023-01-05'
 tags: [depression, information]  
 description: Seasonal Affective disorder can be very cumbersome. Here are some tips to deal with it. 
 socialImage: images/seasonaldepression.jpg
-author_name: Harshika Chakroborty
+author_name: Harshika Chowdary
 category: UnderstandingMentalHealth
 ---  
 
