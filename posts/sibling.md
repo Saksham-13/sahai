@@ -3,7 +3,7 @@ title: The Negative Effects of Sibling Comparison
 date: '2021-08-05'  
 tags: [jealosy, insecurity]  
 description: How can sibling comparison be bad for you?
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/siblingscomparision.jpg
 author_name: Preethi Hiremath
 category: UnderstandingMentalHealth
 ---  
