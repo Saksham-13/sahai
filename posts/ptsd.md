@@ -3,7 +3,7 @@ title: Understanding Post traumatic Stress disorder (PTSD)
 date: '2021-06-05'  
 tags: [ptsd, information]  
 description: What is PTSD? 
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/PTSD.jpg
 author_name: Nia Dey
 category: UnderstandingMentalHealth
 ---  
