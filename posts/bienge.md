@@ -3,7 +3,7 @@ title: Understanding Binge Eating Disorder
 date: '2021-07-21'  
 tags: [eating disorders, information]  
 description: What is binge eating disorder? 
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/bingeeating.jpg
 author_name: Divya Shetty
 category: UnderstandingMentalHealth
 ---  
