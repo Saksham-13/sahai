@@ -3,7 +3,7 @@ title: The negative effects of seeking validation from your art
 date: '2021-04-24'  
 tags: [pressure,anxiety]  
 description: The impact seeking validation can have on you  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/Artistsmentalhealth.jpg
 author_name: Sanjna Panicker
 category: SahaiStories
 ---  
