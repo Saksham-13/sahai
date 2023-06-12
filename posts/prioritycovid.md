@@ -3,7 +3,7 @@ title: How Covid-19 taught me to prioritize myself
 date: '2021-08-01'  
 tags: [pride,identity]  
 description: The importance of prioritizing ourselves  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/coviddd.jpg
 author_name: Smriti Ambastha
 category: SahaiStories
 ---  
