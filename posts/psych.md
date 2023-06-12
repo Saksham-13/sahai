@@ -3,7 +3,7 @@ title: On Understanding Mental Health--The Role of a Psychologist and Psychiatri
 date: '2021-04-15'  
 tags: [information,therapy]  
 description: A poem about being worth it  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/onunderstandingmentalhealth.jpg
 author_name: Sonali
 category: UnderstandingMentalHealth
 ---  
