@@ -3,7 +3,7 @@ title: Self-Care? A most definite YES!
 date: '2022-02-01'  
 tags: [stress, insecurity]  
 description: How to practice self-care?
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/selfcare.jpg
 author_name: Priya Srinand
 category: UnderstandingMentalHealth
 ---  
