@@ -3,7 +3,7 @@ title: Healthy friendships add to healthy living
 date: '2021-08-03'  
 tags: [anxiety,friendship]  
 description: How friendships enrich our lives
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/healthyfriendship.jpg
 author_name: Sonali
 category: Others
 ---  
