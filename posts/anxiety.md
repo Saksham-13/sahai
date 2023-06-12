@@ -3,7 +3,7 @@ title: Understanding Anxiety Disorders
 date: '2021-06-05'  
 tags: anxiety, information]  
 description: What are anxiety disorders? 
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/anxiety .jpg
 author_name: Divya Shetty
 category: UnderstandingMentalHealth
 ---  
