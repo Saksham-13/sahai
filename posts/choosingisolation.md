@@ -3,7 +3,7 @@ title: Choosing Isolation-How Stigma Normalized Loneliness For Me
 date: '2021-02-11'  
 tags: [eating disorder,anxiety]  
 description: The stigmatizion of eating disorders and how it can have a negaive effect on you  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/ChoosingIsolation.jpg
 author_name: Rishika Sen
 category: SahaiStories
 ---  
