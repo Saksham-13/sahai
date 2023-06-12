@@ -3,7 +3,7 @@ title: Cry For Help
 date: '2021-02-06'  
 tags: [depression,poem]  
 description: A poem about the turmoil one feels when struggling  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/cryforhelp.jpg
 author_name: Nia Dey
 category: SahaiStories
 ---  
