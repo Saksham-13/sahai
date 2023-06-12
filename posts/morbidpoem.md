@@ -3,7 +3,7 @@ title: A Morbid Poem
 date: '2021-02-19'  
 tags: [mental illness,depression]  
 description: A poem about what it feels like to find to be depressed  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: https://cdn.discordapp.com/attachments/1113150113037156515/1117840693017182309/a_morbit_poem.jpg
 author_name: Mohona B
 category: SahaiStories
 ---  
