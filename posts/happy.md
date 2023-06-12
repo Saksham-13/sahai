@@ -3,7 +3,7 @@ title: What’s that one thing everyone chases and desires to have? Happiness!
 date: '2022-03-15'  
 tags: [hope,self-esteem]  
 description: How to be happy  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/happiness.jpg
 author_name: Priya Srinand
 category: Others
 ---  
