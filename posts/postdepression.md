@@ -3,7 +3,7 @@ title: Everything to know about Postpartum Depression
 date: '2021-05-11'  
 tags: [depression, women]  
 description: What is postpartum depression? 
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/postpartum.jpg
 author_name: Sanjna Panicker
 category: UnderstandingMentalHealth
 ---  
