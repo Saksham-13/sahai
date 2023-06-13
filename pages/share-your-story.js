@@ -17,7 +17,7 @@ const ImageText = () => {
                 <div
       className='flex flex-col  items-center justify-center'
       >
-        <Link href='forms.gle/ucs23STuPJDUBsnw7'>
+        <Link href='https://forms.gle/ucs23STuPJDUBsnw7' passHref={true}>
         <button
         className=' border-[#9A7B6C] border text-[#9A7B6C] font-bold rounded-md p-5 my-4 hover:bg-[#9A7B6C] hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105'
         >
