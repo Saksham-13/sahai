@@ -1,5 +1,5 @@
 ---  
-title: Behind the Mask: A Nurse's Journey through the Pandemic
+title: "Behind the Mask: A Nurse's Journey through the Pandemic"
 date: '2023-04-11'  
 tags: [nurse, stress]  
 description: A nurses jouney through the covid-19 pandemic 
