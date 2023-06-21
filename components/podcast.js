@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import fredricka from '../components/fonts/fredricka';
 export default function Pdocast() {
     return(
         <>
@@ -14,9 +15,9 @@ export default function Pdocast() {
             <div 
             className=' lg:flex-col  lg:w-1/2 px-4 lg:px-10'
             >
-                <h1 className="text-4xl text-black  font-mono">CHAI WITH SAHAI </h1>
-                <h1 className="text-4xl text-black  font-mono">OUR PODCAST</h1>
-                <p className='text-2xl mt-8 '>Chai with Sahai, aims to start intriguing and eye-opening conversations around mental health and disorders. Join our hosts with a cup of tea to be a part of the conversation!</p>
+                <h1 className={`text-4xl  text-[#926D65] my-2 ${fredricka.className}`}>CHAI WITH SAHAI </h1>
+                <h1 className={`text-3xl  text-[#926D65]   ${fredricka.className}`}>OUR PODCAST</h1>
+                <p className='text-2xl mt-8'>Chai with Sahai, aims to start intriguing and eye-opening conversations around mental health and disorders. Join our hosts with a cup of tea to be a part of the conversation!</p>
                  {/* a button */}
                     <div className='flex  gap-4 mt-8'>
                         <Link href='https://open.spotify.com/show/2Y17fgONRJ1jkhb7ZpAisD?si=5ac56571463d47a0' className=' lg:mx-0 mx-auto'>
