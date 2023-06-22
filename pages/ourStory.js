@@ -3,7 +3,7 @@ export default function ourStory() {
     return (
 
       <div
-      className="container flex flex-col h-[90vh] items-center justify-center mx-auto"
+      className="container flex flex-col  pb-4 lg:h-[90vh] items-center justify-center mx-auto"
       >
          <h1 className={`text-7xl   text-[#926D65] text-center ${fredricka.className} my-8 font-bold `}>OUR STORY</h1>
         <div className=" px-4 prose text-center w-full text-xl font-lovelo-line-bold flex flex-col items-center justify-center">
