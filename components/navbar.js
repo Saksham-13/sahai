@@ -162,7 +162,7 @@ function MobileNav({ open, setOpen }) {
           Meet the team
         </Link>
         <Link
-          className="text-xl font-normal mb-8 mt-4"
+          className="text-xl font-normal mb-8 mt-3"
           href="/getInvolved"
           onClick={() =>
             setTimeout(() => {

@@ -26,7 +26,7 @@ const jobs = [
 
 export default function JoinUs() {
     return (
-        <div className="flex flex-col justify-center items-center h-screen bg-cover bg-center bg-gray-100" style={{ backgroundImage: "url('/background-image.jpg')" }}>
+        <div className="  justify-center items-center h-screen bg-cover bg-center bg-gray-100" style={{ backgroundImage: "url('/background-image.jpg')" }}>
             <div className="container mx-auto px-4 py-8">
                <h1 className={`text-7xl font-bold my-8 text-[#926D65] text-center ${fredricka.className}`}
             >Open Roles</h1>
