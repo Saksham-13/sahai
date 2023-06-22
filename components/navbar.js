@@ -130,7 +130,7 @@ function MobileNav({ open, setOpen }) {
         </Link>
         <Link
           className="text-xl font-normal my-4 "
-          href="/contact"
+          href="/event"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
@@ -152,7 +152,7 @@ function MobileNav({ open, setOpen }) {
         </Link>
         <Link
           className="text-xl font-normal my-4"
-          href="/contact"
+          href="/meetTheTeam"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
@@ -163,7 +163,7 @@ function MobileNav({ open, setOpen }) {
         </Link>
         <Link
           className="text-xl font-normal my-4"
-          href="/contact"
+          href="/getInvolved"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
