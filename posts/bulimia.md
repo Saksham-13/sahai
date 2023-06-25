@@ -3,7 +3,7 @@ title: Understanding Bulimia Nervose
 date: '2021-07-19'  
 tags: [eating disorders, information]  
 description: What is bulimia nervosa? 
-socialImage: images/bulimia.jpgg
+socialImage: images/bulimia.jpg
 author_name: Rishika Sen
 category: UnderstandingMentalHealth
 ---  
