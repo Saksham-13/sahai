@@ -78,37 +78,37 @@ const teams = [
         {
           name: 'Ashka James',
           designation: 'Events and PR Co-Lead',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113152020447240232/Ashka_James.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627686934782063/Ashka_James.jpg',
         },
         {
           name: 'Rakshitha Ravishankar',
           designation: 'Events and PR Co-Lead',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113152018765316277/Rakshitha_Ravishankar.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627686607638589/Rakshitha_Ravishankar.jpg',
         },
         {
           name: 'Dhwani Kohli',
           designation: 'Events and PR Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113152020757630976/Dhwani_Kohli.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627686368555130/Dhwani_Kohli.jpeg',
         },
         {
           name: 'Ishwarya B',
           designation: 'Events and PR Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122614239312478349/Snapchat-501561995.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627685491945512/Snapchat-501561995.jpg',
         },
         {
           name: 'Meghana K',
           designation: 'Events and PR Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122612754033942658/20230613_160604-01.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627685747806349/20230613_160604-01.jpeg',
         },
         {
           name: 'Kaushik Reddy',
           designation: 'Events and PR Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122614239010504868/IMG_04702.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627685206728845/IMG_04702.jpg',
         },
         {
           name: 'Rashi Prasad',
           designation: 'Events and PR Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113152018475929710/Rashi_Prasad_3.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627686062366730/Rashi_Prasad_3.jpeg',
         },
         {
           name: 'Shivang Chajjer',
