@@ -138,7 +138,7 @@ const teams = [
         {
           name: 'Lipika Gupta',
           designation: 'Social Media Head',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113153035665948722/Lipika_Gupta.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122629939699646594/Lipika_Gupta.jpg',
         },
         {
           name: 'Alena P Vinod',
@@ -148,22 +148,22 @@ const teams = [
         {
           name: 'Elisha James',
           designation: 'Social Media Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122613458526011542/WhatsApp_Image_2023-06-23_at_12.12.51_PM.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122629937938038854/WhatsApp_Image_2023-06-23_at_12.12.51_PM.jpeg',
         },
         {
           name: 'Manasi Shimpi',
           designation: 'Social Media Design Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113153035321999400/Manasi_Shimpi.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122629939297005688/Manasi_Shimpi.jpg',
         },
         {
           name: 'Sruthi Ajit',
           designation: 'Social Media Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113153034185342976/Sruthi_Ajit.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122629938974032053/Sruthi_Ajit.jpg',
         },
         {
           name: 'Roshini',
           designation: 'Social Media Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113153034785140866/Roshini_.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122629938286178314/Roshini_.jpeg',
         },
       ],
     },
