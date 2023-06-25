@@ -43,32 +43,32 @@ const teams = [
         {
           name: 'Harshika Chowdary',
           designation: 'Content Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113151197629648916/Harshika_Chowdary.png',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122624322381553714/Harshika_Chowdary.png',
         },
         {
           name: 'Mihira Padma',
           designation: 'Content Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122613458236620922/ae942850-3b24-4772-8426-6f7d5770bc27.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122624320808701963/mihira.jpeg',
         },
         {
           name: 'Oishi Gattani',
           designation: 'Content Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113151196887261294/Oishi_Gattani.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122624322062798848/Oishi_Gattani.jpeg',
         },
         {
           name: 'Preethi Hiremath',
           designation: 'Content Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113151196581072916/Preethi_Hiremath.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122624321387511858/Preethi_Hiremath.jpeg',
         },
         {
           name: 'Priya Srinand',
           designation: 'Content Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113151196195192907/Priya_Srinand.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122624321077125230/Priya_Srinand.jpg',
         },
         {
           name: 'Sonali Sahoo',
           designation: 'Content Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113151195859652718/Sonali.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122624322738077807/Sonali.jpeg',
         },
       ],
     },
