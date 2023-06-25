@@ -123,12 +123,12 @@ const teams = [
         {
           name: 'Kushi Naidu',
           designation: 'Podcast Host',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113152740865097798/Kushi_Naidu.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122628650966192219/Kushi_Naidu.jpg',
         },
         {
           name: 'Palak Jain',
           designation: 'Podcast Host',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113152740437266492/Palak_Jain.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122628651268198410/Palak_Jain.jpeg',
         },
       ],
     },
