@@ -33,12 +33,12 @@ const teams = [
         {
           name: 'Manasavi Kesarwani',
           designation: 'Content Head',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113151197231185940/Manassvi_Kesarwani.png',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122622729254879365/Manassvi_Kesarwani.png',
         },
         {
           name: 'Ananya Pudipeddi',
           designation: 'Content Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113151198044889159/Ananya_Pudipeddi.png',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122622729665904790/Ananya_Pudipeddi.png',
         },
         {
           name: 'Harshika Chowdary',
