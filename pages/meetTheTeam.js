@@ -31,9 +31,15 @@ const teams = [
       name: 'Content Team',
       members: [
         {
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122631465142861988/white-square-background-56v690fpm25a3o6s.jpg',
+        },
+        {
           name: 'Manasavi Kesarwani',
           designation: 'Content Head',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122622729254879365/Manassvi_Kesarwani.png',
+        },
+        {
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122631465142861988/white-square-background-56v690fpm25a3o6s.jpg',
         },
         {
           name: 'Ananya Pudipeddi',
