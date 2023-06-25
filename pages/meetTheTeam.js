@@ -46,6 +46,11 @@ const teams = [
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113151197629648916/Harshika_Chowdary.png',
         },
         {
+          name: 'Mihira Padma',
+          designation: 'Content Team Member',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122613458236620922/ae942850-3b24-4772-8426-6f7d5770bc27.jpeg',
+        },
+        {
           name: 'Oishi Gattani',
           designation: 'Content Team Member',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113151196887261294/Oishi_Gattani.jpeg',
@@ -88,17 +93,17 @@ const teams = [
         {
           name: 'Ishwarya B',
           designation: 'Events and PR Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113152020120076372/Ishwarya_.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122614239312478349/Snapchat-501561995.jpg',
         },
         {
           name: 'Meghana K',
           designation: 'Events and PR Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113152019222503514/Meghana_K.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122612754033942658/20230613_160604-01.jpeg',
         },
         {
           name: 'Kaushik Reddy',
           designation: 'Events and PR Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113152019792941076/Kaushik_Reddy.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122614239010504868/IMG_04702.jpg',
         },
         {
           name: 'Rashi Prasad',
@@ -136,9 +141,14 @@ const teams = [
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113153035665948722/Lipika_Gupta.jpg',
         },
         {
-          name: 'Alena Vinod',
+          name: 'Alena P Vinod',
           designation: 'Social Media Design Team Member',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113153036026654782/Alena_P_Vinod.jpg',
+        },
+        {
+          name: 'Elisha James',
+          designation: 'Social Media Team Member',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122613458526011542/WhatsApp_Image_2023-06-23_at_12.12.51_PM.jpeg',
         },
         {
           name: 'Manasi Shimpi',
