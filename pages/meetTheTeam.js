@@ -115,6 +115,11 @@ const teams = [
           designation: 'Events and PR Team Member',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113152017976787035/Shivang_Chajjer.jpg',
         },
+        {
+          name: 'Shreya Mandi',
+          designation: 'Events and PR Team Member',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1123378929940570163/IMG_0436.jpg',
+        },
       ],
     },
     {
