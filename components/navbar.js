@@ -70,9 +70,8 @@ function MobileNav({ open, setOpen }) {
       </div>
       <div className="flex flex-col  text-white ml-4">
         <Link
-          className="text-xl font-normal my-4"
-          disabled
-          href="/about"
+          className="text-xl font-normal my-4 "
+          href="/resources"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
@@ -226,6 +225,7 @@ export default function Navbar() {
           <NavLink to="https://open.spotify.com/show/2Y17fgONRJ1jkhb7ZpAisD?si=32131090379f495b">
             Podcasts
           </NavLink>
+          <NavLink to="/resources">Resources</NavLink>
           <NavLink to="/event">Event</NavLink>
           <NavLink to="/ourStory">Our Story</NavLink>
           <NavLink to="/getInvolved">Get Involved</NavLink>
