@@ -218,14 +218,13 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex">
-          <NavLink to="/contact">Resources</NavLink>
+         <NavLink to="/resources">Resources</NavLink>
           <NavLink to="#" dropdown>
             Blog
           </NavLink>
           <NavLink to="https://open.spotify.com/show/2Y17fgONRJ1jkhb7ZpAisD?si=32131090379f495b">
             Podcasts
           </NavLink>
-          <NavLink to="/resources">Resources</NavLink>
           <NavLink to="/event">Event</NavLink>
           <NavLink to="/ourStory">Our Story</NavLink>
           <NavLink to="/getInvolved">Get Involved</NavLink>
