@@ -1,5 +1,5 @@
 import fredricka from '../components/fonts/fredricka';
-export default function ourStory() {
+export default function resources() {
     return (
 useEffect(() => {
     AOS.init({ duration: 1500 });
