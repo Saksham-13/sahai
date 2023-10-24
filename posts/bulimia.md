@@ -3,7 +3,7 @@ title: Understanding Bulimia Nervose
 date: '2021-07-19'  
 tags: [eating disorders, information]  
 description: What is bulimia nervosa? 
-socialImage: images/bulimia.jpgg
+socialImage: images/How to find the right therapist for you_.jpg
 author_name: Rishika Sen
 category: UnderstandingMentalHealth
 ---  
@@ -51,7 +51,7 @@ Here are other tips that may help you or a loved one during treatment for eating
   6. Continue to educate yourself about bulimia nervosa.
 
 ## Sources: 
-https://www.nationaleatingdisorders.org/learn/by-eating-disorder/bulimia
+[https://www.nationaleatingdisorders.org/learn/by-eating-disorder/bulimia](https://www.nationaleatingdisorders.org/learn/by-eating-disorder/bulimia)
 https://www.nimh.nih.gov/health/topics/eating-disorders/?ftag=YHF4eb9d17
 https://www.psychiatry.org/patients-families/eating-disorders/what-are-eating-disorders
 
