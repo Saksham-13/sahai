@@ -3,7 +3,7 @@ title: Why we need boundaries in a relationship?
 date: '2022-11-17'  
 tags: [hope,earth]  
 description: The importance of having heathy boundaries
-socialImage: public/images/boundaries.jpg
+socialImage: images/boundaries.jpg
 author_name: Harshika Chowdary
 category: Others
 ---  

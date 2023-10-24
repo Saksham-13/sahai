@@ -3,7 +3,7 @@ title: Has COP26 been visiting your mind lately?
 date: '2021-11-17'  
 tags: [hope,earth]  
 description: How does climate change impact one's well-being
-socialImage: public/images/ClimateChange (1).jpg
+socialImage: images/ClimateChange (1).jpg
 author_name: Sunayani P. Livingstone
 category: Others
 ---  

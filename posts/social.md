@@ -3,7 +3,7 @@ title: Managing Social Media in a healthy way
 date: '2021-04-23'  
 tags: [hope,self-esteem]  
 description: How to use social media in a healthy way  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/socialmedia.jpg
 author_name: Divya Shetty
 category: Others
 ---  

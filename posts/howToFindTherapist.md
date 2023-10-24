@@ -3,7 +3,7 @@ title: How to Find the Right Therapist for You?
 date: '2021-04-21'  
 tags: [anxiety,therapy]  
 description: The blog describes how to find a therapist  
-socialImage: images/How to find the right therapist for you_.jpg
+socialImage: images/therapist.jpg
 author_name: Palak Jain
 category: UnderstandingMentalHealth
 ---  

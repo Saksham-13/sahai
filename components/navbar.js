@@ -70,9 +70,8 @@ function MobileNav({ open, setOpen }) {
       </div>
       <div className="flex flex-col  text-white ml-4">
         <Link
-          className="text-xl font-normal my-4"
-          disabled
-          href="/about"
+          className="text-xl font-normal my-4 "
+          href="/resources"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
@@ -219,7 +218,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex">
-          <NavLink to="/contact">Resources</NavLink>
+         <NavLink to="/resources">Resources</NavLink>
           <NavLink to="#" dropdown>
             Blog
           </NavLink>
