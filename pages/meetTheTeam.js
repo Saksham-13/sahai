@@ -33,7 +33,7 @@ const teams = [
         {
           name: 'Manasavi Kesarwani',
           designation: 'Content Head',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122622729254879365/Manassvi_Kesarwani.png',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833214204379227/Screenshot_2024_0101_131839.jpg?ex=65b56d77&is=65a2f877&hm=d9d1bba283fcddc2b3cb6dc0715437dbc98d7aa865f1cc9e670ffae3560c493b&',
         },
         {
           name: 'Ananya Pudipeddi',
@@ -56,33 +56,18 @@ const teams = [
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122624322062798848/Oishi_Gattani.jpeg',
         },
         {
-          name: 'Preethi Hiremath',
-          designation: 'Content Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122624321387511858/Preethi_Hiremath.jpeg',
-        },
-        {
           name: 'Priya Srinand',
           designation: 'Content Team Member',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122624321077125230/Priya_Srinand.jpg',
-        },
-        {
-          name: 'Sonali Sahoo',
-          designation: 'Content Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122624322738077807/Sonali.jpeg',
         },
       ],
     },
     {
       name: 'Events and PR Team',
       members: [
-        {
-          name: 'Ashka James',
-          designation: 'Events and PR Co-Lead',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627686934782063/Ashka_James.jpg',
-        },
-        {
+         {
           name: 'Rakshitha Ravishankar',
-          designation: 'Events and PR Co-Lead',
+          designation: 'Events and PR Lead',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627686607638589/Rakshitha_Ravishankar.jpg',
         },
         {
@@ -96,6 +81,11 @@ const teams = [
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627685491945512/Snapchat-501561995.jpg',
         },
         {
+          name: 'Khushi Etagi',
+          designation: 'Events and PR Team Member',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833215462674482/IMG_20231020_133228.jpg?ex=65b56d78&is=65a2f878&hm=f95451a7be0f12758da80519fec352054804e583a693e232b2df800caedb0398&',
+        },
+        {
           name: 'Meghana K',
           designation: 'Events and PR Team Member',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627685747806349/20230613_160604-01.jpeg',
@@ -104,6 +94,11 @@ const teams = [
           name: 'Kaushik Reddy',
           designation: 'Events and PR Team Member',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627685206728845/IMG_04702.jpg',
+        },
+        {
+          name: 'Punya Venkatesh',
+          designation: 'Events and PR Team Member',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833214716100628/IMG_20230911_203606.jpg?ex=65b56d77&is=65a2f877&hm=17effa60455f0902f00a7d409ec16251b9df5bfa15c44f8208dc603b8128ce67&',
         },
         {
           name: 'Rashi Prasad',
@@ -126,14 +121,19 @@ const teams = [
       name: 'Podcast Team',
       members: [
         {
+          name: 'Ishita ',
+          designation: 'Podcast Host',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195834100532117646/IMG202304251056582.jpg?ex=65b56e4b&is=65a2f94b&hm=291c9413c75f671f6051e320599ac968d5780042546ef7ee8460d8c5e5c1a374&',
+        },
+          {
           name: 'Kushi Naidu',
           designation: 'Podcast Host',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122628650966192219/Kushi_Naidu.jpg',
         },
-        {
-          name: 'Palak Jain',
+         {
+          name: 'Sonali Sahoo',
           designation: 'Podcast Host',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122628651268198410/Palak_Jain.jpeg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833213952737332/WhatsApp_Image_2024-01-10_at_9.30.14_AM.jpeg?ex=65b56d77&is=65a2f877&hm=beb597f11990529081abac0483f1fe3d9d04e9d0e9835d682006b853fe3d196b&',
         },
       ],
     },
@@ -141,24 +141,19 @@ const teams = [
       name: 'Social Media Team',
       members: [
         {
-          name: 'Lipika Gupta',
+          name: 'Nehal Guttur',
           designation: 'Social Media Head',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122629939699646594/Lipika_Gupta.jpg',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833581906448556/WhatsApp_Image_2024-01-09_at_11.18.06_AM.jpeg?ex=65b56dcf&is=65a2f8cf&hm=674bb334806d887edc44a8a2f83fd543783bee8553e6129ada248a0ac7c5009e&',
         },
         {
-          name: 'Alena P Vinod',
-          designation: 'Social Media Design Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113153036026654782/Alena_P_Vinod.jpg',
+          name: 'Arya Soni',
+          designation: 'Social Media Team Member',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833217274626048/IMG-20231028-WA0001.jpg?ex=65b56d78&is=65a2f878&hm=a3d53648edf730409d3c8d59243d46c4e1a817276c80c09408d0f1d82dfdadd6&',
         },
         {
           name: 'Elisha James',
           designation: 'Social Media Team Member',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122629937938038854/WhatsApp_Image_2023-06-23_at_12.12.51_PM.jpeg',
-        },
-        {
-          name: 'Manasi Shimpi',
-          designation: 'Social Media Design Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122629939297005688/Manasi_Shimpi.jpg',
         },
         {
           name: 'Sruthi Ajit',
