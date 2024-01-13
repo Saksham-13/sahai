@@ -3,7 +3,7 @@ title:  'Under the Weight of Grades: Decoding the Toxic School System'
 date: '2024-13-01'  
 tags: [grades ,self-esteem]  
 description: Exploring the impact of India's toxic school system  
-socialImage: images/acnescar.jpg
+socialImage: images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg
 author_name: Ananya P
 category: Others
 ---  
