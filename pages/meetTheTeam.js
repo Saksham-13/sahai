@@ -76,6 +76,11 @@ const teams = [
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627686368555130/Dhwani_Kohli.jpeg',
         },
         {
+          name: 'Harsh M',
+          designation: 'Events and PR Team Member',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195838759493713960/IMG_20230518_1033142.jpg?ex=65b572a1&is=65a2fda1&hm=ef529bb89b644d13ade76248b628d86c5e338c35b017fff62f921c8a7a0bb36f&',
+        },
+        {
           name: 'Ishwarya B',
           designation: 'Events and PR Team Member',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627685491945512/Snapchat-501561995.jpg',
@@ -83,7 +88,7 @@ const teams = [
         {
           name: 'Khushi Etagi',
           designation: 'Events and PR Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833215462674482/IMG_20231020_133228.jpg?ex=65b56d78&is=65a2f878&hm=f95451a7be0f12758da80519fec352054804e583a693e232b2df800caedb0398&',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195838758919090296/IMG_20231020_133228.jpg?ex=65b572a1&is=65a2fda1&hm=19ddd4fb116435fffd288cf5c626960776d7b534642e0dcf1493d3b0f60eca2e&',
         },
         {
           name: 'Meghana K',
@@ -98,7 +103,7 @@ const teams = [
         {
           name: 'Punya Venkatesh',
           designation: 'Events and PR Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833214716100628/IMG_20230911_203606.jpg?ex=65b56d77&is=65a2f877&hm=17effa60455f0902f00a7d409ec16251b9df5bfa15c44f8208dc603b8128ce67&',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195838758222827681/IMG_20230911_203606.jpg?ex=65b572a1&is=65a2fda1&hm=fc7d80cdd1b0f084f9159063081d80d5f7dee4836c86064da651642df1202e83&',
         },
         {
           name: 'Rashi Prasad',
@@ -115,6 +120,11 @@ const teams = [
           designation: 'Events and PR Team Member',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1123378929940570163/IMG_0436.jpg',
         },
+        {
+          name: 'Vivek Kashyap',
+          designation: 'Events and PR Team Member',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195838760227713034/DB666F16-00E8-4DD0-B4A0-9C686F73D664.jpeg?ex=65b572a2&is=65a2fda2&hm=9dfe8019b18531910bfdfa9cf1c9ef5db63317c0322678a4d065f06802782bda&',
+        },
       ],
     },
     {
@@ -123,7 +133,7 @@ const teams = [
         {
           name: 'Ishita ',
           designation: 'Podcast Host',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195834100532117646/IMG202304251056582.jpg?ex=65b56e4b&is=65a2f94b&hm=291c9413c75f671f6051e320599ac968d5780042546ef7ee8460d8c5e5c1a374&',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195838760852668517/IMG202304251056582.jpg?ex=65b572a2&is=65a2fda2&hm=792742264ac4d417ac226eb842194e508528037784af97c9d8d64d1388b51a20&',
         },
           {
           name: 'Kushi Naidu',
@@ -133,7 +143,7 @@ const teams = [
          {
           name: 'Sonali Sahoo',
           designation: 'Podcast Host',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833213952737332/WhatsApp_Image_2024-01-10_at_9.30.14_AM.jpeg?ex=65b56d77&is=65a2f877&hm=beb597f11990529081abac0483f1fe3d9d04e9d0e9835d682006b853fe3d196b&',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195838757912457247/WhatsApp_Image_2024-01-10_at_9.30.14_AM.jpeg?ex=65b572a1&is=65a2fda1&hm=e4a1c7cc17e94d2dcbb44cbaaca9c5007ed13109095ac51af848449f6ce6712f&',
         },
       ],
     },
@@ -143,12 +153,12 @@ const teams = [
         {
           name: 'Nehal Guttur',
           designation: 'Social Media Head',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833581906448556/WhatsApp_Image_2024-01-09_at_11.18.06_AM.jpeg?ex=65b56dcf&is=65a2f8cf&hm=674bb334806d887edc44a8a2f83fd543783bee8553e6129ada248a0ac7c5009e&',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195838757664985119/WhatsApp_Image_2024-01-09_at_11.18.06_AM.jpeg?ex=65b572a1&is=65a2fda1&hm=b4bf84faa09ee3667e68b53b734bf2230c80080cd164dedf583acf189e9e15fb&',
         },
         {
           name: 'Arya Soni',
           designation: 'Social Media Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195833217274626048/IMG-20231028-WA0001.jpg?ex=65b56d78&is=65a2f878&hm=a3d53648edf730409d3c8d59243d46c4e1a817276c80c09408d0f1d82dfdadd6&',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195838759866994799/IMG-20231028-WA0001.jpg?ex=65b572a1&is=65a2fda1&hm=fce697ecf69baef9da03c1c7617a4e65e2d20644f7c4c4a310a68e33dff413b7&',
         },
         {
           name: 'Elisha James',
