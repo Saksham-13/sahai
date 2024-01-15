@@ -45,11 +45,11 @@ export default function City({ city }) {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Helplines</h2>
           <div className="space-y-4">
             {city[0].helplines.map((helpline) => (
-              <div className="border rounded-lg p-4 ">
+              <div className="outline outline-slate-200 outline-1 rounded-lg p-4 transition duration-300 ease-in-out transform hover:shadow-lg hover:outline-black hover:outline-2">
                 <h3 className="text-lg font-semibold">{helpline.name}</h3>
                 <p className="text-gray-600 ">
                   Contact:{" "}
-                  {helpline.number && helpline.email
+                  {helpline.number && helpline.email 
                     ? `${helpline.number} / ${helpline.email}`
                     : helpline.number || helpline.email}
                 </p>
@@ -65,7 +65,7 @@ export default function City({ city }) {
           </h2>
           <div className="space-y-4">
           {city[0].supportGroups.map((supportGroup, index) => (
-  <div className="border rounded-lg p-4" key={index}>
+  <div className="outline outline-slate-200 outline-1 rounded-lg p-4 transition duration-300 ease-in-out transform hover:shadow-lg hover:outline-black hover:outline-2" key={index}>
     <h3 className="text-lg font-semibold">{supportGroup.name}</h3>
     {supportGroup.link ? (
       <a href={supportGroup.link} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
@@ -86,7 +86,7 @@ export default function City({ city }) {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Therapists</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {city[0].therapists.map((therapist, index) => (
-  <div className="border rounded-lg p-4" key={index}>
+  <div className="outline outline-slate-200 outline-1 rounded-lg p-4 transition duration-300 ease-in-out transform hover:shadow-lg hover:outline-black hover:outline-2" key={index}>
     <h3 className="text-lg font-semibold">{therapist.name}</h3>
     {therapist.email && (
       <p className="text-gray-600">Contact: {therapist.email}</p>
