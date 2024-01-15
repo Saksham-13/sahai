@@ -1,0 +1,123 @@
+[
+    [
+        {
+          "id": 2,
+          "location": "New Delhi",
+          "helplines": [
+            {"name": "Sumaitri", "number": "011 23389090", "email": "sumaitringo@yahoo.in"}
+          ],
+          "supportGroups": [
+            {"name": "ASHA Against CSA (Child Sexual Abuse Survivors Support Group)", "link": "https://themindclan.com/sharing_spaces"},
+            {"name": "Through Thick and Thin (Everyday Problems Support Group)", "link": "https://themindclan.com/sharing_spaces"},
+            {"name": "His Space Support Circle (Men's Support Group)", "link": "https://themindclan.com/sharing_spaces"},
+            {"name": "WORK IN PROGRESS: Support Group for individuals looking for a safe space to explore mental health and wellness, meet new people"},
+            {"name": "Through Thick or Thin: Yellow Epiphanies"}
+          ],
+          "therapists": [
+            {
+              "name": "Manavi Khurrana",
+              "bio": [
+                "Manavi's therapy style and modalities are Queer affirmative therapy, Intersectionality Framework, Sex-positive approach to counselling,",
+                "Person-centered and Narrative therapy styles, Kink and Poly affirmative therapy.",
+                "Years of Experience: 10 years",
+                "Both Online and Offline",
+                "Languages: English, Hindi",
+                "Rate: Rs. 6,000 - 8,300",
+                "Contact: Website - https://karmacare.in/book-a-session/"
+              ]
+            },
+            {
+              "name": "Kanika Soni",
+              "bio": [
+                "Kanika is a senior clinical psychologist focusing on adolescent, adult, and geriatric mental health. She helps those struggling with Mood Disorders,",
+                "Anxiety Disorders, Psychosis, Personality Disorders, Adjustment Disorders, Obsessive Compulsive Disorders, and grief.",
+                "Some of her therapy styles and modalities are cognitive-behavioral therapy, Dialectical Behavioral Therapy,",
+                "Interpersonal therapy, Motivational enhancement, and Behavioral therapy.",
+                "Years of Experience: 9 years",
+                "Both Online and Offline",
+                "Languages: English, Hindi",
+                "Rate: Rs. 4,500 - 6,500",
+                "Contact: Website - https://karmacare.in/book-a-session/"
+              ]
+            },
+            {
+              "name": "Sumedha Kathpalia",
+              "bio": [
+                "Sumedha is a clinical psychologist at Karma Care. Her areas of specialty are Substance use, Anxiety spectrum disorders, Mood disorders, OCD,",
+                "Personality disorders, Disorders of Childhood and Adolescence, Eating disorders, Grief, Repetitive thoughts, Adjustment difficulties,",
+                "Emotional regulation, Relationship issues, Stress, Self and identity.",
+                "Years of Experience: 3.5 years",
+                "Both Online and Offline",
+                "Languages: English, Hindi",
+                "Rate: Rs. 3,200 - 5,200",
+                "Contact: Website - https://karmacare.in/book-a-session/"
+              ]
+            },
+            {
+              "name": "Ankita Agarwal",
+              "bio": [
+                "Ankita is a counseling psychologist at Karma Care. Some of Ankita's areas of interest are Gender and sexuality, anxiety, trauma, ADHD, emotional regulation,",
+                "motivation, procrastination, and relationships.",
+                "Years of Experience: 2 years",
+                "Both Online and Offline",
+                "Languages: English, Hindi",
+                "Rate: Rs. 2,200 - 4,200",
+                "Contact: Website - https://karmacare.in/book-a-session/"
+              ]
+            },
+            {
+              "name": "Kankam Khosla",
+              "bio": [
+                "Areas of specialty: Work, Relationship and Academic stress Trauma, Grief and Bereavement, Self-esteem/Confidence issues, Issues in Appetite,",
+                "Insomnia, Mood, Anxiety and Personality disorders.",
+                "Years of Experience: 1 year",
+                "Both Online and Offline",
+                "Languages: English, Hindi",
+                "Rate: Rs. 2,000 - 4,000",
+                "Contact: Website - https://karmacare.in/book-a-session/"
+              ]
+            },
+            {
+              "name": "Tanisha Dhingra",
+              "bio": [
+                "Areas of specialty: Anxiety, trauma, self & identity, relationship issues, emotion regulation, exploring gender and sexuality, general life stressors and concerns,",
+                "relationships, teenage and geriatric mental health concerns",
+                "Years of Experience: 1 year",
+                "Both Online and Offline",
+                "Languages: English, Hindi, Punjabi",
+                "Rate: Rs. 2,000 - 4,000",
+                "Contact: Website - https://karmacare.in/book-a-session/"
+              ]
+            },
+            {
+                "name": "Lavanya Kaushal",
+                "bio": [
+                  "Pronouns: She/Her",
+                  "Bio: I’m Lavanya Kaushal, a psychologist and dance movement therapy facilitator. I offer individual counselling services primarily to adolescents and adults and work with concerns like anxiety, depression, low self-esteem, relationship issues, body image, and processing childhood/past trauma.",
+                  "Years of Experience: 2 years",
+                  "Online",
+                  "Languages: English, Hindi, Assamese",
+                  "Rate: 1000-1500",
+                  "Contact: Email/Phone"
+                ]
+              },
+              {
+                "name": "Anjali Singla",
+                "bio": [
+                  "Pronouns: She/Her",
+                  "Bio: I take space as a queer, neurodivergent person, and a Trauma-informed practitioner with a social justice and somatic lens. My practice is depth-oriented and humanistic",
+                  "Years of Experience: 6 years",
+                  "Both Online",
+                  "Languages: English, Hindi",
+                  "Rate: Rs. 2200. Sliding scale: 1700-2200",
+                  "Contact: Email"
+                ]
+              }
+              
+              
+          ]
+        }
+      ]
+      
+      
+]

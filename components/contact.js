@@ -7,7 +7,7 @@ export default function Contact() {
         <section className="text-gray-700 body-font relative">
         <form
         action="mailto: guglu000@gmail.com"
-        enctype="text/plain" method="POST"
+        encType="text/plain" method="POST"
         >
         <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-8">
