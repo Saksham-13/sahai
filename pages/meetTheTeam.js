@@ -16,7 +16,7 @@ const founders = [
       name: 'Rishika Sen',
       designation: 'Co-Founder',
       description: 'Rishika is a writer and a passionate mental health advocate. She believes that mental health awareness should be much more prevalent than it currently is and that mental health resources should be more accessible. Fueled by her personal experience, and will to make the world a better place, Rishika is determined to help Sahai conquer its vision. When she is not burning her retinas studying, she can be found writing or watching yet another Netflix show. Currently, Rishika is studying Psychology,  Neuroscience, and Behaviour at McMaster University.',
-      imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1113150661996073071/Rishika_Sen.jpg',
+      imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1196265000692629625/IMG_5340_1.jpg?ex=65b6ff99&is=65a48a99&hm=8d7cefcb2aa7457203dc87c08c40fee9e86761b296357ca6852ac3e09f705c93&',
     },
     {
       name: 'Jainy Zavier',
@@ -38,7 +38,7 @@ const teams = [
         {
           name: 'Ananya Pudipeddi',
           designation: 'Content Team Member',
-          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122622729665904790/Ananya_Pudipeddi.png',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1196265001174978680/Screenshot_2024-01-14-19-19-55-23_6012fa4d4ddec268fc5c7112cbb265e7.jpg?ex=65b6ff99&is=65a48a99&hm=3c2b7d080dc68fa2f0206a09c573317b26420fd45e1a1012b9d1ec2692ee0f01&',
         },
         {
           name: 'Harshika Chowdary',
@@ -69,6 +69,11 @@ const teams = [
           name: 'Rakshitha Ravishankar',
           designation: 'Events and PR Lead',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1122627686607638589/Rakshitha_Ravishankar.jpg',
+        },
+        {
+          name: 'Anagha Nambiar',
+          designation: 'Events and PR Team Member',
+          imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1196265001699258478/1705179277239-ed3465be-8900-490b-ba8c-453de30461e5_1.jpg?ex=65b6ff99&is=65a48a99&hm=a694429b5060aa2209bc8f3fdab445668be31ecec022dc5c5dd6c626cc027692&',
         },
         {
           name: 'Dhwani Kohli',
@@ -151,7 +156,7 @@ const teams = [
       name: 'Social Media Team',
       members: [
         {
-          name: 'Nehal Guttur',
+          name: 'Nehal Gutur',
           designation: 'Social Media Head',
           imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1195838757664985119/WhatsApp_Image_2024-01-09_at_11.18.06_AM.jpeg?ex=65b572a1&is=65a2fda1&hm=b4bf84faa09ee3667e68b53b734bf2230c80080cd164dedf583acf189e9e15fb&',
         },
