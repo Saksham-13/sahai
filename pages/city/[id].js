@@ -44,8 +44,8 @@ export default function City({ city }) {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Helplines</h2>
           <div className="space-y-4">
-            {city[0].helplines.map((helpline) => (
-              <div className="outline outline-slate-200 outline-1 rounded-lg p-4 transition duration-300 ease-in-out transform hover:shadow-lg hover:outline-black hover:outline-2">
+            {city[0].helplines.map((helpline,index) => (
+              <div className="outline outline-slate-200 outline-1 rounded-lg p-4 transition duration-300 ease-in-out transform hover:shadow-lg hover:outline-black hover:outline-2 " key={index}> 
                 <h3 className="text-lg font-semibold">{helpline.name}</h3>
                 <p className="text-gray-600 ">
                   Contact:{" "}
