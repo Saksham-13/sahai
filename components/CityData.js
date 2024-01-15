@@ -1,67 +1,17 @@
-import React, { useState } from 'react';
 
+import Link from "next/link";
 const CityData = ({ data }) => {
-  const [expanded, setExpanded] = useState(false);
-
-  const handleClick = () => {
-    setExpanded(!expanded);
-  };
-
+  
+  const item = data[0];
   return (
+    <Link href={`/city/${item.id}`}>
     <div
-      className={`bg-white rounded-lg shadow-lg p-6 ${
-        expanded ? 'h-auto' : 'h-64 overflow-hidden'
-      }`}
-      onClick={handleClick}
+    className="outline flex text-center justify-center items-center gap-2 outline-slate-200 outline-2 rounded-lg p-4 transition duration-300 ease-in-out transform hover:shadow-lg hover:outline-black hover:outline-2"
     >
-      {data.map((item) => (
-        <div key={item.id} className="mb-6 w-1/2 border border-blue-100">
-          <h2 className="text-2xl font-bold mb-2">{item.location}</h2>
-         
-          {expanded && (
-            <>
-             <div className="mb-4">
-            <h3 className="text-lg font-bold mb-2">Helplines:</h3>
-            <ul className="list-disc list-inside">
-              {item.helplines.map((helpline) => (
-                <li key={helpline.name}>
-                  {helpline.name}: {helpline.number || helpline.email}
-                </li>
-              ))}
-            </ul>
-          </div>
-              <div className="mb-4">
-                <h3 className="text-lg font-bold mb-2">Support Groups:</h3>
-                <ul className="list-disc list-inside">
-                  {item.supportGroups.map((group) => (
-                    <li key={group.name}>
-                      {group.name}: {group.link || 'N/A'}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-lg font-bold mb-2">Therapists:</h3>
-                <ul className="">
-                  {item.therapists.map((therapist) => (
-                    <li key={therapist.name}>
-                      <h4 className="text-md font-bold mb-2">
-                        {therapist.name}
-                      </h4>
-                      <ul className="list-disc list-inside">
-                        {therapist.bio.map((line) => (
-                          <li key={line}>{line}</li>
-                        ))}
-                      </ul>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </>
-          )}
-        </div>
-      ))}
+      <img width="50" height="50" src="https://img.icons8.com/bubbles/100/new-delhi.png" alt="new-delhi"/>
+      <h1>{item.location}</h1>
     </div>
+    </Link>
   );
 };
 

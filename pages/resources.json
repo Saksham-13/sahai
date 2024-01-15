@@ -2,6 +2,7 @@
     [
         {
           "id": 2,
+          "image":"https://img.icons8.com/bubbles/100/new-delhi.png",
           "location": "New Delhi",
           "helplines": [
             {"name": "Sumaitri", "number": "011 23389090", "email": "sumaitringo@yahoo.in"}

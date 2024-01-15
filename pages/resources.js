@@ -5,7 +5,7 @@ export default function Resources() {
     console.log(resources);
     return(
         <div
-        className=''
+        className='flex p-10'
         >
         {
             resources.map((item) => (
