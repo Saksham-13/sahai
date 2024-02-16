@@ -40,6 +40,17 @@ const teamMembers = [
       description: 'We had our first in-person event on 30th April 2022 with the Rotaract Club in BMSCE. We conducted a workshop with the students of AMrutha Shishu Nivasa on exam stress and we provided them with de-stressor activities like painting and stress-management workshops. It was so heartwarming and an amazing experience for all of us! We can’t wait to host more workshops.',
       imageUrl: 'https://cdn.discordapp.com/attachments/1113150113037156515/1117840251264700508/DSC_0107.JPG',
   },
+  {
+    name : 'Sahai x WEAL',
+    description: 'On 10th October, 2023 we had an in-person workshop in collaboration with WEAL. In our interactive workshop, we discussed the ways to conquer and deal with exam stress. We gave the kids workshops and fun activities, and everyone involved had an amazing time!',
+    imageUrl: 'https://media.discordapp.net/attachments/1117788727020892190/1207714893126434938/a7e9102f-f4aa-439b-8eca-496152b87110.png?ex=65e0a724&is=65ce3224&hm=55c0af9efe55d2f1e3bce12753e498b542a6cb68c7a1b7cb98fd825faac660d4&=&format=webp&quality=lossless&width=1548&height=1032',
+  },
+  {
+    name: 'Sahai x Project Surya',
+    description: 'On 28th October, 2023 we had an in-person workshop in collaboration with Surya and Samatvan. In our workshop, we discussed the well-being of kids with type-one diabetes. We gave the kids workshops and fun activities, and everyone involved had an amazing time!',
+    imageUrl: 'https://media.discordapp.net/attachments/1117788727020892190/1207714440137408564/4370ca07-659a-4b9c-899d-5ee2381d0aaa-1_1.jpg?ex=65e0a6b8&is=65ce31b8&hm=3fa5c18e5f7c4d7d4c8c8089991a870ba7da2c27215898d628595e77f828f992&=&format=webp&width=1372&height=1032',
+  }
+  
 ];
 const InstagramImages = () => {
   return (

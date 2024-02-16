@@ -51,6 +51,13 @@ export default function Home({ posts }) {
         >
           <h1 className="text-4xl font-bold text-white font-mono"> <RoughNotation type="highlight" color="#9A7B6C" show={true}> Recent Events</RoughNotation></h1>
           <h1 className=" my-4 text-xl  text-white  font-bold "><RoughNotation  type="highlight" color="#926D65" show={true} > Sahai frequently hosts both in-person and virtual events to facilitate discussions about mental health.</RoughNotation></h1>
+          <Link href='/event'>
+        <button
+        className=' border-[#9A7B6C] border font-bold rounded-md py-4 px-2 my-4 bg-[#9A7B6C] text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105'
+        >
+          Know More
+        </button>
+        </Link>
         </div>
         </Parallax>
 
